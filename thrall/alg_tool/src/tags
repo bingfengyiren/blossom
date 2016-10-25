@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+InterAlgorithmInterface	inter_algorithm_interface.cpp	/^DYN_ALGORITHMS(InterAlgorithmInterface);$/;"	v
+InterAlgorithmInterface	inter_algorithm_interface.h	/^		InterAlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:InterAlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+InterAlgorithmInterface	inter_algorithm_interface.h	/^class InterAlgorithmInterface : public AlgorithmInterface{$/;"	c	inherits:AlgorithmInterface
+InterAlgorithmInterface::InterAlgorithmInterface	inter_algorithm_interface.h	/^		InterAlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:InterAlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+InterAlgorithmInterface::algorithm_core	inter_algorithm_interface.cpp	/^int InterAlgorithmInterface::algorithm_core(int64_t req_id, $/;"	f	class:InterAlgorithmInterface	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+InterAlgorithmInterface::algorithm_core	inter_algorithm_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	p	class:InterAlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+InterAlgorithmInterface::~InterAlgorithmInterface	inter_algorithm_interface.h	/^		~InterAlgorithmInterface(){$/;"	f	class:InterAlgorithmInterface	access:public	signature:()
+UserRpmAlgorithmInterface	user_rpm_algorithm_interface.cpp	/^DYN_ALGORITHMS(UserRpmAlgorithmInterface);$/;"	v
+UserRpmAlgorithmInterface	user_rpm_algorithm_interface.h	/^		UserRpmAlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:UserRpmAlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+UserRpmAlgorithmInterface	user_rpm_algorithm_interface.h	/^class UserRpmAlgorithmInterface : public AlgorithmInterface{$/;"	c	inherits:AlgorithmInterface
+UserRpmAlgorithmInterface::UserRpmAlgorithmInterface	user_rpm_algorithm_interface.h	/^		UserRpmAlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:UserRpmAlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+UserRpmAlgorithmInterface::algorithm_core	user_rpm_algorithm_interface.cpp	/^int UserRpmAlgorithmInterface::algorithm_core(int64_t req_id, $/;"	f	class:UserRpmAlgorithmInterface	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+UserRpmAlgorithmInterface::algorithm_core	user_rpm_algorithm_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	p	class:UserRpmAlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+UserRpmAlgorithmInterface::~UserRpmAlgorithmInterface	user_rpm_algorithm_interface.h	/^		~UserRpmAlgorithmInterface(){$/;"	f	class:UserRpmAlgorithmInterface	access:public	signature:()
+_INTER_ALGORITHM_INTERFACE_HEADER_	inter_algorithm_interface.h	2;"	d
+_USER_RPM_ALGORITHM_USER_RPMFACE_HEADER_	user_rpm_algorithm_interface.h	2;"	d
+algorithm_core	inter_algorithm_interface.cpp	/^int InterAlgorithmInterface::algorithm_core(int64_t req_id, $/;"	f	class:InterAlgorithmInterface	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+algorithm_core	inter_algorithm_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	p	class:InterAlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+algorithm_core	user_rpm_algorithm_interface.cpp	/^int UserRpmAlgorithmInterface::algorithm_core(int64_t req_id, $/;"	f	class:UserRpmAlgorithmInterface	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+algorithm_core	user_rpm_algorithm_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	p	class:UserRpmAlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+~InterAlgorithmInterface	inter_algorithm_interface.h	/^		~InterAlgorithmInterface(){$/;"	f	class:InterAlgorithmInterface	access:public	signature:()
+~UserRpmAlgorithmInterface	user_rpm_algorithm_interface.h	/^		~UserRpmAlgorithmInterface(){$/;"	f	class:UserRpmAlgorithmInterface	access:public	signature:()

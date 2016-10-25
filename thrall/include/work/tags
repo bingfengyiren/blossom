@@ -1,0 +1,174 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+BRI_LEN	user_work_interface.h	353;"	d
+CreateFactory_W	work_interface.h	/^typedef WorkInterface * (*CreateFactory_W) (DbCompany*& p_db_company, int interface_id);$/;"	t
+DYN_WORK	work_interface.h	20;"	d
+LARGE_PERCENT	user_work_interface.h	354;"	d
+MAP_RECO_UID	user_work_interface.h	/^		typedef std::map<uint64_t, RECO_UID*> MAP_RECO_UID;$/;"	t	class:UserWorkInterface	access:public
+MAX_FOL_NUM	user_work_interface.h	355;"	d
+MAX_NUM	user_work_interface.h	351;"	d
+MAX_SEC_NUM	user_work_interface.h	352;"	d
+PAIR_INT_FLOAT	user_work_interface.h	/^		typedef pair<uint64_t, float> PAIR_INT_FLOAT;	$/;"	t	class:UserWorkInterface	access:public
+RECO_TYPE	user_work_interface.h	/^		} RECO_TYPE;$/;"	t	class:UserWorkInterface	typeref:enum:UserWorkInterface::_RECO_TYPE	access:public
+RECO_TYPE_GOG	user_work_interface.h	/^			RECO_TYPE_GOG,$/;"	e	enum:UserWorkInterface::_RECO_TYPE
+RECO_TYPE_GOH	user_work_interface.h	/^			RECO_TYPE_GOH,$/;"	e	enum:UserWorkInterface::_RECO_TYPE
+RECO_TYPE_HOG	user_work_interface.h	/^			RECO_TYPE_HOG,$/;"	e	enum:UserWorkInterface::_RECO_TYPE
+RECO_TYPE_HOH	user_work_interface.h	/^			RECO_TYPE_HOH$/;"	e	enum:UserWorkInterface::_RECO_TYPE
+RECO_UID	user_work_interface.h	/^		struct RECO_UID{$/;"	s	class:UserWorkInterface	access:public
+REL_TYPE	user_work_interface.h	/^		} REL_TYPE;$/;"	t	class:UserWorkInterface	typeref:enum:UserWorkInterface::_REL_TYPE	access:public
+REL_TYPE_FOL	user_work_interface.h	/^			REL_TYPE_FOL,$/;"	e	enum:UserWorkInterface::_REL_TYPE
+REL_TYPE_HUF	user_work_interface.h	/^			REL_TYPE_HUF$/;"	e	enum:UserWorkInterface::_REL_TYPE
+REL_UID	user_work_interface.h	/^		struct REL_UID{$/;"	s	class:UserWorkInterface	access:public
+USER_TYPE	user_work_interface.h	/^		} USER_TYPE;$/;"	t	class:UserWorkInterface	typeref:enum:UserWorkInterface::_USER_TYPE	access:public
+USER_TYPE_BV	user_work_interface.h	/^			USER_TYPE_BV$/;"	e	enum:UserWorkInterface::_USER_TYPE
+USER_TYPE_CMN	user_work_interface.h	/^			USER_TYPE_CMN,$/;"	e	enum:UserWorkInterface::_USER_TYPE
+USER_TYPE_YV	user_work_interface.h	/^			USER_TYPE_YV,$/;"	e	enum:UserWorkInterface::_USER_TYPE
+UserWorkInterface	user_work_interface.h	/^		UserWorkInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:UserWorkInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+UserWorkInterface	user_work_interface.h	/^class UserWorkInterface : public WorkInterface{$/;"	c	inherits:WorkInterface
+UserWorkInterface::MAP_RECO_UID	user_work_interface.h	/^		typedef std::map<uint64_t, RECO_UID*> MAP_RECO_UID;$/;"	t	class:UserWorkInterface	access:public
+UserWorkInterface::PAIR_INT_FLOAT	user_work_interface.h	/^		typedef pair<uint64_t, float> PAIR_INT_FLOAT;	$/;"	t	class:UserWorkInterface	access:public
+UserWorkInterface::RECO_TYPE	user_work_interface.h	/^		} RECO_TYPE;$/;"	t	class:UserWorkInterface	typeref:enum:UserWorkInterface::_RECO_TYPE	access:public
+UserWorkInterface::RECO_TYPE_GOG	user_work_interface.h	/^			RECO_TYPE_GOG,$/;"	e	enum:UserWorkInterface::_RECO_TYPE
+UserWorkInterface::RECO_TYPE_GOH	user_work_interface.h	/^			RECO_TYPE_GOH,$/;"	e	enum:UserWorkInterface::_RECO_TYPE
+UserWorkInterface::RECO_TYPE_HOG	user_work_interface.h	/^			RECO_TYPE_HOG,$/;"	e	enum:UserWorkInterface::_RECO_TYPE
+UserWorkInterface::RECO_TYPE_HOH	user_work_interface.h	/^			RECO_TYPE_HOH$/;"	e	enum:UserWorkInterface::_RECO_TYPE
+UserWorkInterface::RECO_UID	user_work_interface.h	/^		struct RECO_UID{$/;"	s	class:UserWorkInterface	access:public
+UserWorkInterface::RECO_UID::bri_num_	user_work_interface.h	/^			uint16_t bri_num_;$/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+UserWorkInterface::RECO_UID::bri_uids_	user_work_interface.h	/^			uint64_t bri_uids_[BRI_LEN]; $/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+UserWorkInterface::RECO_UID::score_	user_work_interface.h	/^			uint32_t score_;$/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+UserWorkInterface::RECO_UID::type_	user_work_interface.h	/^			uint8_t type_; \/\/0 is for gz of gz and  3 is for hufen of hufen$/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+UserWorkInterface::RECO_UID::uid_	user_work_interface.h	/^			uint64_t uid_;$/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+UserWorkInterface::REL_TYPE	user_work_interface.h	/^		} REL_TYPE;$/;"	t	class:UserWorkInterface	typeref:enum:UserWorkInterface::_REL_TYPE	access:public
+UserWorkInterface::REL_TYPE_FOL	user_work_interface.h	/^			REL_TYPE_FOL,$/;"	e	enum:UserWorkInterface::_REL_TYPE
+UserWorkInterface::REL_TYPE_HUF	user_work_interface.h	/^			REL_TYPE_HUF$/;"	e	enum:UserWorkInterface::_REL_TYPE
+UserWorkInterface::REL_UID	user_work_interface.h	/^		struct REL_UID{$/;"	s	class:UserWorkInterface	access:public
+UserWorkInterface::REL_UID::qmd_	user_work_interface.h	/^			uint32_t qmd_; \/\/ qmd score$/;"	m	struct:UserWorkInterface::REL_UID	access:public
+UserWorkInterface::REL_UID::type_	user_work_interface.h	/^			uint8_t type_; \/\/ relation type: 0 is follow; 1 is for friend$/;"	m	struct:UserWorkInterface::REL_UID	access:public
+UserWorkInterface::REL_UID::uid_	user_work_interface.h	/^			uint64_t uid_; \/\/ uid$/;"	m	struct:UserWorkInterface::REL_UID	access:public
+UserWorkInterface::USER_TYPE	user_work_interface.h	/^		} USER_TYPE;$/;"	t	class:UserWorkInterface	typeref:enum:UserWorkInterface::_USER_TYPE	access:public
+UserWorkInterface::USER_TYPE_BV	user_work_interface.h	/^			USER_TYPE_BV$/;"	e	enum:UserWorkInterface::_USER_TYPE
+UserWorkInterface::USER_TYPE_CMN	user_work_interface.h	/^			USER_TYPE_CMN,$/;"	e	enum:UserWorkInterface::_USER_TYPE
+UserWorkInterface::USER_TYPE_YV	user_work_interface.h	/^			USER_TYPE_YV,$/;"	e	enum:UserWorkInterface::_USER_TYPE
+UserWorkInterface::UserWorkInterface	user_work_interface.h	/^		UserWorkInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:UserWorkInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+UserWorkInterface::VEC_RECO_UID	user_work_interface.h	/^		typedef std::vector<RECO_UID*> VEC_RECO_UID;$/;"	t	class:UserWorkInterface	access:public
+UserWorkInterface::_RECO_TYPE	user_work_interface.h	/^		typedef enum _RECO_TYPE{$/;"	g	class:UserWorkInterface	access:public
+UserWorkInterface::_REL_TYPE	user_work_interface.h	/^		typedef enum _REL_TYPE{$/;"	g	class:UserWorkInterface	access:public
+UserWorkInterface::_USER_TYPE	user_work_interface.h	/^		typedef enum _USER_TYPE{$/;"	g	class:UserWorkInterface	access:public
+UserWorkInterface::compare_pair_int_float	user_work_interface.h	/^		static bool compare_pair_int_float(const PAIR_INT_FLOAT& c1, const PAIR_INT_FLOAT& c2){$/;"	f	class:UserWorkInterface	access:public	signature:(const PAIR_INT_FLOAT& c1, const PAIR_INT_FLOAT& c2)
+UserWorkInterface::compare_reco_result	user_work_interface.h	/^		static bool compare_reco_result(const RECO_UID* c1, const RECO_UID* c2){$/;"	f	class:UserWorkInterface	access:public	signature:(const RECO_UID* c1, const RECO_UID* c2)
+UserWorkInterface::filter_users	user_work_interface.h	/^		int filter_users(const char* uid_str,$/;"	f	class:UserWorkInterface	access:protected	signature:(const char* uid_str, const std::vector<uint64_t>& vec_reco_uids, std::vector<uint64_t>& diff_uids)
+UserWorkInterface::generate_online_result	user_work_interface.h	/^		int generate_online_result(uint64_t uid, uint32_t num, $/;"	f	class:UserWorkInterface	access:public	signature:(uint64_t uid, uint32_t num, const VEC_RECO_UID& h_vec_reco_uid, const VEC_RECO_UID& g_vec_reco_uid, char* p_out_string, int& n_len)
+UserWorkInterface::generate_output_str	user_work_interface.h	/^		int generate_output_str(__gnu_cxx::hash_set<uint64_t>& result_uids, int num,$/;"	f	class:UserWorkInterface	access:protected	signature:(__gnu_cxx::hash_set<uint64_t>& result_uids, int num, char*& p_out_string, int& n_len)
+UserWorkInterface::generate_output_str	user_work_interface.h	/^		int generate_output_str(const std::vector<uint64_t>& result_uids, int num,$/;"	f	class:UserWorkInterface	access:protected	signature:(const std::vector<uint64_t>& result_uids, int num, char*& p_out_string, int& n_len)
+UserWorkInterface::get_block_filter_set	user_work_interface.h	/^		int get_block_filter_set(char* p_block_result, char sep_char, char second_sep_char,$/;"	f	class:UserWorkInterface	access:protected	signature:(char* p_block_result, char sep_char, char second_sep_char, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+UserWorkInterface::get_filter_uids	user_work_interface.h	/^		int get_filter_uids(uint64_t uid, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids,$/;"	f	class:UserWorkInterface	access:protected	signature:(uint64_t uid, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+UserWorkInterface::get_fri_filter_set	user_work_interface.h	/^		int get_fri_filter_set(char* p_fri_result, char split_char, char second_split_char,$/;"	f	class:UserWorkInterface	access:protected	signature:(char* p_fri_result, char split_char, char second_split_char, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+UserWorkInterface::get_indirect_func	user_work_interface.h	/^		int get_indirect_func( MAP_RECO_UID& map_reco_uid, VEC_RECO_UID& vec_reco_uid,$/;"	f	class:UserWorkInterface	access:public	signature:( MAP_RECO_UID& map_reco_uid, VEC_RECO_UID& vec_reco_uid, uint64_t only_uids[], uint32_t only_uid_num, const std::map<uint64_t, REL_UID*>& rel_uids, uint8_t type )
+UserWorkInterface::get_online_reco_uids	user_work_interface.h	/^		int get_online_reco_uids(uint64_t uid, uint32_t num,$/;"	f	class:UserWorkInterface	access:public	signature:(uint64_t uid, uint32_t num, char* p_out_string, int& n_out_len)
+UserWorkInterface::get_rel_uids	user_work_interface.h	/^		int get_rel_uids(uint64_t uid, uint32_t num,  $/;"	f	class:UserWorkInterface	access:public	signature:(uint64_t uid, uint32_t num, uint64_t fri_uids[], uint32_t fri_uid_num, uint64_t fol_uids[], uint32_t fol_uid_num, const std::vector<PAIR_INT_FLOAT>& qmd_uids, char* p_out_string, int& n_out_len)
+UserWorkInterface::get_token_uid	user_work_interface.h	/^		int get_token_uid(uint64_t uid, char* uid_token_str){$/;"	f	class:UserWorkInterface	access:protected	signature:(uint64_t uid, char* uid_token_str)
+UserWorkInterface::get_unfollow_filter_set	user_work_interface.h	/^		int get_unfollow_filter_set(char* p_unfollow_result, char sep_char, char second_sep_char,$/;"	f	class:UserWorkInterface	access:protected	signature:(char* p_unfollow_result, char sep_char, char second_sep_char, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+UserWorkInterface::get_uninterest_filter_set	user_work_interface.h	/^		int get_uninterest_filter_set(char* p_uninterest_result, char sep_char, char second_sep_char,$/;"	f	class:UserWorkInterface	access:protected	signature:(char* p_uninterest_result, char sep_char, char second_sep_char, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+UserWorkInterface::mget_rel_uids	user_work_interface.h	/^		int mget_rel_uids(uint64_t qmd_uids[], uint32_t get_uid_num, MapMResult& map_m_hoh_result,$/;"	f	class:UserWorkInterface	access:public	signature:(uint64_t qmd_uids[], uint32_t get_uid_num, MapMResult& map_m_hoh_result, char& split_char, char& second_split_char, int db_id)
+UserWorkInterface::print_map_reco_uid	user_work_interface.h	/^		int print_map_reco_uid(const std::map<uint64_t, RECO_UID*>& map_reco_uid){$/;"	f	class:UserWorkInterface	access:public	signature:(const std::map<uint64_t, RECO_UID*>& map_reco_uid)
+UserWorkInterface::print_rel_uids	user_work_interface.h	/^		int print_rel_uids(const std::map<uint64_t, REL_UID*>& rel_uids){$/;"	f	class:UserWorkInterface	access:public	signature:(const std::map<uint64_t, REL_UID*>& rel_uids)
+UserWorkInterface::print_vec_reco_uid	user_work_interface.h	/^		int print_vec_reco_uid(const VEC_RECO_UID& vec_reco_uid){$/;"	f	class:UserWorkInterface	access:public	signature:(const VEC_RECO_UID& vec_reco_uid)
+UserWorkInterface::release_map_reco_uid	user_work_interface.h	/^		int release_map_reco_uid(std::map<uint64_t, RECO_UID*>& map_reco_uid){$/;"	f	class:UserWorkInterface	access:public	signature:(std::map<uint64_t, RECO_UID*>& map_reco_uid)
+UserWorkInterface::release_rel_uids	user_work_interface.h	/^		int release_rel_uids( std::map<uint64_t, REL_UID*>& rel_uids){$/;"	f	class:UserWorkInterface	access:public	signature:( std::map<uint64_t, REL_UID*>& rel_uids)
+UserWorkInterface::~UserWorkInterface	user_work_interface.h	/^		virtual ~UserWorkInterface(){$/;"	f	class:UserWorkInterface	access:public	signature:()
+VEC_RECO_UID	user_work_interface.h	/^		typedef std::vector<RECO_UID*> VEC_RECO_UID;$/;"	t	class:UserWorkInterface	access:public
+WorkCompany	work_company.h	/^		WorkCompany(DbCompany*& p_db_company):work_interface_factory_(NULL){$/;"	f	class:WorkCompany	access:public	signature:(DbCompany*& p_db_company)
+WorkCompany	work_company.h	/^class WorkCompany{$/;"	c
+WorkCompany::WorkCompany	work_company.h	/^		WorkCompany(DbCompany*& p_db_company):work_interface_factory_(NULL){$/;"	f	class:WorkCompany	access:public	signature:(DbCompany*& p_db_company)
+WorkCompany::initialize	work_company.h	/^		int initialize(const char* work_config){$/;"	f	class:WorkCompany	access:public	signature:(const char* work_config)
+WorkCompany::work_core	work_company.h	/^		int work_core(const char*& request_str, char* &p_out_string, int& n_out_len, uint64_t req_id){$/;"	f	class:WorkCompany	access:public	signature:(const char*& request_str, char* &p_out_string, int& n_out_len, uint64_t req_id)
+WorkCompany::work_interface_factory_	work_company.h	/^		WorkInterfaceFactory* work_interface_factory_;$/;"	m	class:WorkCompany	access:private
+WorkCompany::~WorkCompany	work_company.h	/^		~WorkCompany(){$/;"	f	class:WorkCompany	access:public	signature:()
+WorkInfo	work_interface.h	/^} WorkInfo;$/;"	t	typeref:struct:__anon1
+WorkInterface	work_interface.h	/^		WorkInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:WorkInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+WorkInterface	work_interface.h	/^class WorkInterface{$/;"	c
+WorkInterface::WorkInterface	work_interface.h	/^		WorkInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:WorkInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+WorkInterface::algorithm_core	work_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	f	class:WorkInterface	access:protected	signature:(int64_t req_id, const AccessStr& access_str, const std::vector<uint64_t>& cand_ids, std::vector<uint64_t>& result_ids)
+WorkInterface::get_interface_id	work_interface.h	/^		int get_interface_id(){$/;"	f	class:WorkInterface	access:public	signature:()
+WorkInterface::initialize	work_interface.h	/^		int initialize(const char* p_alg_config){$/;"	f	class:WorkInterface	access:public	signature:(const char* p_alg_config)
+WorkInterface::interface_id_	work_interface.h	/^		int interface_id_;$/;"	m	class:WorkInterface	access:protected
+WorkInterface::p_alg_config_	work_interface.h	/^		char p_alg_config_[PATH_MAX];$/;"	m	class:WorkInterface	access:protected
+WorkInterface::p_db_company_	work_interface.h	/^		DbCompany*& p_db_company_;	$/;"	m	class:WorkInterface	access:protected
+WorkInterface::return_fail	work_interface.h	/^		int return_fail(int fail_code, const char* fail_string, char* &p_out_string, int& n_out_len){$/;"	f	class:WorkInterface	access:public	signature:(int fail_code, const char* fail_string, char* &p_out_string, int& n_out_len)
+WorkInterface::vec_pair_map_alg_	work_interface.h	/^		VEC_PAIR_MAP_ALG vec_pair_map_alg_;$/;"	m	class:WorkInterface	access:protected
+WorkInterface::work_core	work_interface.h	/^		virtual int work_core(json_object *req_json, char* &p_out_string, $/;"	p	class:WorkInterface	access:public	signature:(json_object *req_json, char* &p_out_string, int& n_out_len, int64_t req_id)
+WorkInterface::~WorkInterface	work_interface.h	/^		virtual ~WorkInterface(){$/;"	f	class:WorkInterface	access:public	signature:()
+WorkInterfaceFactory	work_interface_factory.h	/^		WorkInterfaceFactory(DbCompany*& p_db_company):p_db_company_(p_db_company){$/;"	f	class:WorkInterfaceFactory	access:public	signature:(DbCompany*& p_db_company)
+WorkInterfaceFactory	work_interface_factory.h	/^class WorkInterfaceFactory{$/;"	c
+WorkInterfaceFactory::WorkInterfaceFactory	work_interface_factory.h	/^		WorkInterfaceFactory(DbCompany*& p_db_company):p_db_company_(p_db_company){$/;"	f	class:WorkInterfaceFactory	access:public	signature:(DbCompany*& p_db_company)
+WorkInterfaceFactory::get_interface	work_interface_factory.h	/^		WorkInterface* get_interface(const char* api_command){$/;"	f	class:WorkInterfaceFactory	access:public	signature:(const char* api_command)
+WorkInterfaceFactory::initialize	work_interface_factory.h	/^		int initialize(const char* p_work_config){$/;"	f	class:WorkInterfaceFactory	access:public	signature:(const char* p_work_config)
+WorkInterfaceFactory::map_work_interface_so_	work_interface_factory.h	/^		std::map<std::string, WorkInfo*> map_work_interface_so_;$/;"	m	class:WorkInterfaceFactory	access:private
+WorkInterfaceFactory::p_db_company_	work_interface_factory.h	/^		DbCompany*& p_db_company_;$/;"	m	class:WorkInterfaceFactory	access:private
+WorkInterfaceFactory::release_work_interface_so	work_interface_factory.h	/^		int release_work_interface_so(){$/;"	f	class:WorkInterfaceFactory	access:private	signature:()
+WorkInterfaceFactory::~WorkInterfaceFactory	work_interface_factory.h	/^		~WorkInterfaceFactory(){$/;"	f	class:WorkInterfaceFactory	access:public	signature:()
+_RECO_TYPE	user_work_interface.h	/^		typedef enum _RECO_TYPE{$/;"	g	class:UserWorkInterface	access:public
+_REL_TYPE	user_work_interface.h	/^		typedef enum _REL_TYPE{$/;"	g	class:UserWorkInterface	access:public
+_USER_TYPE	user_work_interface.h	/^		typedef enum _USER_TYPE{$/;"	g	class:UserWorkInterface	access:public
+_USER_WORK_INTERFACE_HEADER_	user_work_interface.h	2;"	d
+_WORK_COMPANY_HEADER_	work_company.h	2;"	d
+_WORK_INTERFACE_FACTORY_HEADER_	work_interface_factory.h	2;"	d
+_WORK_INTERFACE_HEADER_	work_interface.h	2;"	d
+__anon1::handle_	work_interface.h	/^	void* handle_;$/;"	m	struct:__anon1	access:public
+__anon1::work_interface_	work_interface.h	/^	WorkInterface* work_interface_;$/;"	m	struct:__anon1	access:public
+algorithm_core	work_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	f	class:WorkInterface	access:protected	signature:(int64_t req_id, const AccessStr& access_str, const std::vector<uint64_t>& cand_ids, std::vector<uint64_t>& result_ids)
+bri_num_	user_work_interface.h	/^			uint16_t bri_num_;$/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+bri_uids_	user_work_interface.h	/^			uint64_t bri_uids_[BRI_LEN]; $/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+compare_pair_int_float	user_work_interface.h	/^		static bool compare_pair_int_float(const PAIR_INT_FLOAT& c1, const PAIR_INT_FLOAT& c2){$/;"	f	class:UserWorkInterface	access:public	signature:(const PAIR_INT_FLOAT& c1, const PAIR_INT_FLOAT& c2)
+compare_reco_result	user_work_interface.h	/^		static bool compare_reco_result(const RECO_UID* c1, const RECO_UID* c2){$/;"	f	class:UserWorkInterface	access:public	signature:(const RECO_UID* c1, const RECO_UID* c2)
+filter_users	user_work_interface.h	/^		int filter_users(const char* uid_str,$/;"	f	class:UserWorkInterface	access:protected	signature:(const char* uid_str, const std::vector<uint64_t>& vec_reco_uids, std::vector<uint64_t>& diff_uids)
+generate_online_result	user_work_interface.h	/^		int generate_online_result(uint64_t uid, uint32_t num, $/;"	f	class:UserWorkInterface	access:public	signature:(uint64_t uid, uint32_t num, const VEC_RECO_UID& h_vec_reco_uid, const VEC_RECO_UID& g_vec_reco_uid, char* p_out_string, int& n_len)
+generate_output_str	user_work_interface.h	/^		int generate_output_str(__gnu_cxx::hash_set<uint64_t>& result_uids, int num,$/;"	f	class:UserWorkInterface	access:protected	signature:(__gnu_cxx::hash_set<uint64_t>& result_uids, int num, char*& p_out_string, int& n_len)
+generate_output_str	user_work_interface.h	/^		int generate_output_str(const std::vector<uint64_t>& result_uids, int num,$/;"	f	class:UserWorkInterface	access:protected	signature:(const std::vector<uint64_t>& result_uids, int num, char*& p_out_string, int& n_len)
+get_block_filter_set	user_work_interface.h	/^		int get_block_filter_set(char* p_block_result, char sep_char, char second_sep_char,$/;"	f	class:UserWorkInterface	access:protected	signature:(char* p_block_result, char sep_char, char second_sep_char, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+get_filter_uids	user_work_interface.h	/^		int get_filter_uids(uint64_t uid, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids,$/;"	f	class:UserWorkInterface	access:protected	signature:(uint64_t uid, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+get_fri_filter_set	user_work_interface.h	/^		int get_fri_filter_set(char* p_fri_result, char split_char, char second_split_char,$/;"	f	class:UserWorkInterface	access:protected	signature:(char* p_fri_result, char split_char, char second_split_char, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+get_indirect_func	user_work_interface.h	/^		int get_indirect_func( MAP_RECO_UID& map_reco_uid, VEC_RECO_UID& vec_reco_uid,$/;"	f	class:UserWorkInterface	access:public	signature:( MAP_RECO_UID& map_reco_uid, VEC_RECO_UID& vec_reco_uid, uint64_t only_uids[], uint32_t only_uid_num, const std::map<uint64_t, REL_UID*>& rel_uids, uint8_t type )
+get_interface	work_interface_factory.h	/^		WorkInterface* get_interface(const char* api_command){$/;"	f	class:WorkInterfaceFactory	access:public	signature:(const char* api_command)
+get_interface_id	work_interface.h	/^		int get_interface_id(){$/;"	f	class:WorkInterface	access:public	signature:()
+get_online_reco_uids	user_work_interface.h	/^		int get_online_reco_uids(uint64_t uid, uint32_t num,$/;"	f	class:UserWorkInterface	access:public	signature:(uint64_t uid, uint32_t num, char* p_out_string, int& n_out_len)
+get_rel_uids	user_work_interface.h	/^		int get_rel_uids(uint64_t uid, uint32_t num,  $/;"	f	class:UserWorkInterface	access:public	signature:(uint64_t uid, uint32_t num, uint64_t fri_uids[], uint32_t fri_uid_num, uint64_t fol_uids[], uint32_t fol_uid_num, const std::vector<PAIR_INT_FLOAT>& qmd_uids, char* p_out_string, int& n_out_len)
+get_token_uid	user_work_interface.h	/^		int get_token_uid(uint64_t uid, char* uid_token_str){$/;"	f	class:UserWorkInterface	access:protected	signature:(uint64_t uid, char* uid_token_str)
+get_unfollow_filter_set	user_work_interface.h	/^		int get_unfollow_filter_set(char* p_unfollow_result, char sep_char, char second_sep_char,$/;"	f	class:UserWorkInterface	access:protected	signature:(char* p_unfollow_result, char sep_char, char second_sep_char, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+get_uninterest_filter_set	user_work_interface.h	/^		int get_uninterest_filter_set(char* p_uninterest_result, char sep_char, char second_sep_char,$/;"	f	class:UserWorkInterface	access:protected	signature:(char* p_uninterest_result, char sep_char, char second_sep_char, __gnu_cxx::hash_set<uint64_t>& hashset_filter_uids, int num = -1)
+handle_	work_interface.h	/^	void* handle_;$/;"	m	struct:__anon1	access:public
+initialize	work_company.h	/^		int initialize(const char* work_config){$/;"	f	class:WorkCompany	access:public	signature:(const char* work_config)
+initialize	work_interface.h	/^		int initialize(const char* p_alg_config){$/;"	f	class:WorkInterface	access:public	signature:(const char* p_alg_config)
+initialize	work_interface_factory.h	/^		int initialize(const char* p_work_config){$/;"	f	class:WorkInterfaceFactory	access:public	signature:(const char* p_work_config)
+interface_id_	work_interface.h	/^		int interface_id_;$/;"	m	class:WorkInterface	access:protected
+map_work_interface_so_	work_interface_factory.h	/^		std::map<std::string, WorkInfo*> map_work_interface_so_;$/;"	m	class:WorkInterfaceFactory	access:private
+mget_rel_uids	user_work_interface.h	/^		int mget_rel_uids(uint64_t qmd_uids[], uint32_t get_uid_num, MapMResult& map_m_hoh_result,$/;"	f	class:UserWorkInterface	access:public	signature:(uint64_t qmd_uids[], uint32_t get_uid_num, MapMResult& map_m_hoh_result, char& split_char, char& second_split_char, int db_id)
+p_alg_config_	work_interface.h	/^		char p_alg_config_[PATH_MAX];$/;"	m	class:WorkInterface	access:protected
+p_db_company_	work_interface.h	/^		DbCompany*& p_db_company_;	$/;"	m	class:WorkInterface	access:protected
+p_db_company_	work_interface_factory.h	/^		DbCompany*& p_db_company_;$/;"	m	class:WorkInterfaceFactory	access:private
+print_map_reco_uid	user_work_interface.h	/^		int print_map_reco_uid(const std::map<uint64_t, RECO_UID*>& map_reco_uid){$/;"	f	class:UserWorkInterface	access:public	signature:(const std::map<uint64_t, RECO_UID*>& map_reco_uid)
+print_rel_uids	user_work_interface.h	/^		int print_rel_uids(const std::map<uint64_t, REL_UID*>& rel_uids){$/;"	f	class:UserWorkInterface	access:public	signature:(const std::map<uint64_t, REL_UID*>& rel_uids)
+print_vec_reco_uid	user_work_interface.h	/^		int print_vec_reco_uid(const VEC_RECO_UID& vec_reco_uid){$/;"	f	class:UserWorkInterface	access:public	signature:(const VEC_RECO_UID& vec_reco_uid)
+qmd_	user_work_interface.h	/^			uint32_t qmd_; \/\/ qmd score$/;"	m	struct:UserWorkInterface::REL_UID	access:public
+release_map_reco_uid	user_work_interface.h	/^		int release_map_reco_uid(std::map<uint64_t, RECO_UID*>& map_reco_uid){$/;"	f	class:UserWorkInterface	access:public	signature:(std::map<uint64_t, RECO_UID*>& map_reco_uid)
+release_rel_uids	user_work_interface.h	/^		int release_rel_uids( std::map<uint64_t, REL_UID*>& rel_uids){$/;"	f	class:UserWorkInterface	access:public	signature:( std::map<uint64_t, REL_UID*>& rel_uids)
+release_work_interface_so	work_interface_factory.h	/^		int release_work_interface_so(){$/;"	f	class:WorkInterfaceFactory	access:private	signature:()
+return_fail	work_interface.h	/^		int return_fail(int fail_code, const char* fail_string, char* &p_out_string, int& n_out_len){$/;"	f	class:WorkInterface	access:public	signature:(int fail_code, const char* fail_string, char* &p_out_string, int& n_out_len)
+score_	user_work_interface.h	/^			uint32_t score_;$/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+type_	user_work_interface.h	/^			uint8_t type_; \/\/ relation type: 0 is follow; 1 is for friend$/;"	m	struct:UserWorkInterface::REL_UID	access:public
+type_	user_work_interface.h	/^			uint8_t type_; \/\/0 is for gz of gz and  3 is for hufen of hufen$/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+uid_	user_work_interface.h	/^			uint64_t uid_; \/\/ uid$/;"	m	struct:UserWorkInterface::REL_UID	access:public
+uid_	user_work_interface.h	/^			uint64_t uid_;$/;"	m	struct:UserWorkInterface::RECO_UID	access:public
+vec_pair_map_alg_	work_interface.h	/^		VEC_PAIR_MAP_ALG vec_pair_map_alg_;$/;"	m	class:WorkInterface	access:protected
+work_core	work_company.h	/^		int work_core(const char*& request_str, char* &p_out_string, int& n_out_len, uint64_t req_id){$/;"	f	class:WorkCompany	access:public	signature:(const char*& request_str, char* &p_out_string, int& n_out_len, uint64_t req_id)
+work_core	work_interface.h	/^		virtual int work_core(json_object *req_json, char* &p_out_string, $/;"	p	class:WorkInterface	access:public	signature:(json_object *req_json, char* &p_out_string, int& n_out_len, int64_t req_id)
+work_interface_	work_interface.h	/^	WorkInterface* work_interface_;$/;"	m	struct:__anon1	access:public
+work_interface_factory_	work_company.h	/^		WorkInterfaceFactory* work_interface_factory_;$/;"	m	class:WorkCompany	access:private
+~UserWorkInterface	user_work_interface.h	/^		virtual ~UserWorkInterface(){$/;"	f	class:UserWorkInterface	access:public	signature:()
+~WorkCompany	work_company.h	/^		~WorkCompany(){$/;"	f	class:WorkCompany	access:public	signature:()
+~WorkInterface	work_interface.h	/^		virtual ~WorkInterface(){$/;"	f	class:WorkInterface	access:public	signature:()
+~WorkInterfaceFactory	work_interface_factory.h	/^		~WorkInterfaceFactory(){$/;"	f	class:WorkInterfaceFactory	access:public	signature:()

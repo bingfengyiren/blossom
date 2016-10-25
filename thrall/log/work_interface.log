@@ -1,0 +1,6 @@
+2015-12-10 15:51:52 begin to start:./lab_common_svr ../conf/lab_common_svr.conf
+2015-12-10 15:51:52 has started pid:32086, ./lab_common_svr ../conf/lab_common_svr.conf
+2015-12-10 15:52:19 terminated, to start again
+2015-12-10 15:52:19 restarted pid:32101, ./lab_common_svr ../conf/lab_common_svr.conf
+2015-12-10 15:52:47 terminated, to start again
+2015-12-10 15:52:47 restarted pid:32121, ./lab_common_svr ../conf/lab_common_svr.conf

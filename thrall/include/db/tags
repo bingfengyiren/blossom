@@ -1,0 +1,742 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AD_BID_TYPE	global_ad_db_interface.h	/^}AD_BID_TYPE; \/\/ad bid type: cpm \/ cpc$/;"	t	typeref:enum:__anon4
+AD_BID_TYPE_CPC	global_ad_db_interface.h	/^	AD_BID_TYPE_CPC$/;"	e	enum:__anon4
+AD_BID_TYPE_CPM	global_ad_db_interface.h	/^	AD_BID_TYPE_CPM,$/;"	e	enum:__anon4
+AD_FINANCE	global_ad_db_interface.h	/^}AD_FINANCE; \/\/ finance about ad$/;"	t	typeref:struct:__anon7
+AD_STATUS	global_ad_db_interface.h	/^}AD_STATUS; \/\/ ad status$/;"	t	typeref:enum:__anon5
+AD_STATUS_DELETE	global_ad_db_interface.h	/^	AD_STATUS_DELETE$/;"	e	enum:__anon5
+AD_STATUS_RUN	global_ad_db_interface.h	/^	AD_STATUS_RUN,$/;"	e	enum:__anon5
+AD_STATUS_STOP	global_ad_db_interface.h	/^	AD_STATUS_STOP,$/;"	e	enum:__anon5
+AD_TIME	global_ad_db_interface.h	/^}AD_TIME; \/\/ time about ad$/;"	t	typeref:struct:__anon6
+AD_TYPE	global_ad_db_interface.h	/^}AD_TYPE; \/\/ad type$/;"	t	typeref:enum:__anon3
+AD_TYPE_APP	global_ad_db_interface.h	/^	AD_TYPE_APP,$/;"	e	enum:__anon3
+AD_TYPE_BRAND	global_ad_db_interface.h	/^	AD_TYPE_BRAND,$/;"	e	enum:__anon3
+AD_TYPE_FEED	global_ad_db_interface.h	/^	AD_TYPE_FEED,$/;"	e	enum:__anon3
+AD_TYPE_GOODS	global_ad_db_interface.h	/^	AD_TYPE_GOODS,$/;"	e	enum:__anon3
+AD_TYPE_IMPRESSIONS	global_ad_db_interface.h	/^	AD_TYPE_IMPRESSIONS$/;"	e	enum:__anon3
+AD_TYPE_QUALITY	global_ad_db_interface.h	/^	AD_TYPE_QUALITY,$/;"	e	enum:__anon3
+AD_TYPE_USER	global_ad_db_interface.h	/^	AD_TYPE_USER,$/;"	e	enum:__anon3
+API_DB_TYPE	db_interface.h	/^	API_DB_TYPE,$/;"	e	enum:__anon2
+AdInfo	global_ad_db_interface.h	/^		AdInfo():ad_bson_(NULL){$/;"	f	class:AdInfo	access:public	signature:()
+AdInfo	global_ad_db_interface.h	/^class AdInfo{$/;"	c
+AdInfo::AdInfo	global_ad_db_interface.h	/^		AdInfo():ad_bson_(NULL){$/;"	f	class:AdInfo	access:public	signature:()
+AdInfo::ad_bid_type_	global_ad_db_interface.h	/^		AD_BID_TYPE ad_bid_type_;$/;"	m	class:AdInfo	access:private
+AdInfo::ad_bson_	global_ad_db_interface.h	/^		XBSON* ad_bson_; \/\/ bson$/;"	m	class:AdInfo	access:private
+AdInfo::ad_finance_	global_ad_db_interface.h	/^		AD_FINANCE ad_finance_;$/;"	m	class:AdInfo	access:private
+AdInfo::ad_id_	global_ad_db_interface.h	/^		uint64_t ad_id_;$/;"	m	class:AdInfo	access:private
+AdInfo::ad_status_	global_ad_db_interface.h	/^		AD_STATUS ad_status_;$/;"	m	class:AdInfo	access:private
+AdInfo::ad_time_	global_ad_db_interface.h	/^		AD_TIME ad_time_;$/;"	m	class:AdInfo	access:private
+AdInfo::ad_type_	global_ad_db_interface.h	/^		AD_TYPE ad_type_;$/;"	m	class:AdInfo	access:private
+AdInfo::customer_id_	global_ad_db_interface.h	/^		uint64_t customer_id_;$/;"	m	class:AdInfo	access:private
+AdInfo::get_attr	global_ad_db_interface.h	/^		int get_attr(char buf[], size_t buf_size, size_t& len){$/;"	f	class:AdInfo	access:public	signature:(char buf[], size_t buf_size, size_t& len)
+AdInfo::get_bid_type	global_ad_db_interface.h	/^		AD_BID_TYPE get_bid_type(){$/;"	f	class:AdInfo	access:public	signature:()
+AdInfo::get_customer_id	global_ad_db_interface.h	/^		uint64_t  get_customer_id(){$/;"	f	class:AdInfo	access:public	signature:()
+AdInfo::get_finance	global_ad_db_interface.h	/^		AD_FINANCE get_finance(){$/;"	f	class:AdInfo	access:public	signature:()
+AdInfo::get_id	global_ad_db_interface.h	/^		uint64_t get_id(){$/;"	f	class:AdInfo	access:public	signature:()
+AdInfo::get_status	global_ad_db_interface.h	/^		AD_STATUS get_status(){$/;"	f	class:AdInfo	access:public	signature:()
+AdInfo::get_time	global_ad_db_interface.h	/^		AD_TIME get_time(){$/;"	f	class:AdInfo	access:public	signature:()
+AdInfo::get_type	global_ad_db_interface.h	/^		AD_TYPE get_type(){$/;"	f	class:AdInfo	access:public	signature:()
+AdInfo::set	global_ad_db_interface.h	/^		int set(uint64_t ad_id,$/;"	f	class:AdInfo	access:public	signature:(uint64_t ad_id, uint64_t customer_id, AD_TYPE ad_type, AD_BID_TYPE ad_bid_type, AD_STATUS ad_status, AD_FINANCE ad_finance, AD_TIME ad_time, const char* ad_bson_str)
+AdInfo::set_status	global_ad_db_interface.h	/^		int set_status(AD_STATUS ad_status){$/;"	f	class:AdInfo	access:public	signature:(AD_STATUS ad_status)
+AdInfo::update_current_time	global_ad_db_interface.h	/^		int update_current_time(){$/;"	f	class:AdInfo	access:private	signature:()
+AdInfo::~AdInfo	global_ad_db_interface.h	/^		~AdInfo(){$/;"	f	class:AdInfo	access:public	signature:()
+ApiDbInterface	api_db_interface.h	/^		ApiDbInterface(const Db_Info_Struct& db_info_struct):$/;"	f	class:ApiDbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+ApiDbInterface	api_db_interface.h	/^class ApiDbInterface : public DbInterface{$/;"	c	inherits:DbInterface
+ApiDbInterface::ApiDbInterface	api_db_interface.h	/^		ApiDbInterface(const Db_Info_Struct& db_info_struct):$/;"	f	class:ApiDbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+ApiDbInterface::_output_buf_t	api_db_interface.h	/^		typedef struct _output_buf_t{$/;"	s	class:ApiDbInterface	access:public
+ApiDbInterface::_output_buf_t::buf_	api_db_interface.h	/^			char* buf_;$/;"	m	struct:ApiDbInterface::_output_buf_t	access:public
+ApiDbInterface::_output_buf_t::key_	api_db_interface.h	/^			char* key_;$/;"	m	struct:ApiDbInterface::_output_buf_t	access:public
+ApiDbInterface::_output_buf_t::len_	api_db_interface.h	/^			size_t len_;$/;"	m	struct:ApiDbInterface::_output_buf_t	access:public
+ApiDbInterface::_output_buf_t::size_	api_db_interface.h	/^			size_t size_;$/;"	m	struct:ApiDbInterface::_output_buf_t	access:public
+ApiDbInterface::get	api_db_interface.h	/^		int get(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char){$/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+ApiDbInterface::get_authorization	api_db_interface.h	/^		int get_authorization(const char* uid_str, const char* token_str, char base64_auth[], size_t& auth_len){$/;"	f	class:ApiDbInterface	access:protected	signature:(const char* uid_str, const char* token_str, char base64_auth[], size_t& auth_len)
+ApiDbInterface::get_data_by_curl	api_db_interface.h	/^		int get_data_by_curl(const char* url, const char* request_key, $/;"	f	class:ApiDbInterface	access:protected	signature:(const char* url, const char* request_key, const char* auth_header, char*& p_result)
+ApiDbInterface::get_i	api_db_interface.h	/^		int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+ApiDbInterface::get_i	api_db_interface.h	/^		int get_i(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+ApiDbInterface::handle_	api_db_interface.h	/^		CURL* handle_;$/;"	m	class:ApiDbInterface	access:protected
+ApiDbInterface::md5_hex	api_db_interface.h	/^		void md5_hex(char *out, const char *d, size_t n) {$/;"	f	class:ApiDbInterface	access:protected	signature:(char *out, const char *d, size_t n)
+ApiDbInterface::mget	api_db_interface.h	/^		int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result,$/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+ApiDbInterface::mget_i	api_db_interface.h	/^		int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+ApiDbInterface::output_buf_	api_db_interface.h	/^		output_buf_t* output_buf_;$/;"	m	class:ApiDbInterface	access:public
+ApiDbInterface::output_buf_t	api_db_interface.h	/^		}output_buf_t;$/;"	t	class:ApiDbInterface	typeref:struct:ApiDbInterface::_output_buf_t	access:public
+ApiDbInterface::s_get	api_db_interface.h	/^		int s_get(uint16_t type_id, const char* p_str_key, char* &p_result, $/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key)
+ApiDbInterface::write_memory_callback	api_db_interface.h	/^		static size_t write_memory_callback(void *contents, size_t size, size_t nmemb, void *userp)$/;"	f	class:ApiDbInterface	access:protected	signature:(void *contents, size_t size, size_t nmemb, void *userp)
+ApiDbInterface::~ApiDbInterface	api_db_interface.h	/^		virtual ~ApiDbInterface(){$/;"	f	class:ApiDbInterface	access:public	signature:()
+BINARY_BYTES	global_fd_db_interface.h	/^const int BINARY_BYTES = sizeof(UserFeature);		\/\/ 74字节？$/;"	v
+BSON_LEN	global_ad_db_interface.h	/^const int BSON_LEN = 10240; $/;"	v
+DB_TYPE	db_interface.h	/^} DB_TYPE;$/;"	t	typeref:enum:__anon2
+DbCompany	db_company.h	/^		DbCompany(){}$/;"	f	class:DbCompany	access:public	signature:()
+DbCompany	db_company.h	/^class DbCompany{$/;"	c
+DbCompany::DbCompany	db_company.h	/^		DbCompany(){}$/;"	f	class:DbCompany	access:public	signature:()
+DbCompany::get_db_info	db_company.h	/^		int get_db_info(const char* file_name, std::vector<std::string>& vec_db_name){$/;"	f	class:DbCompany	access:private	signature:(const char* file_name, std::vector<std::string>& vec_db_name)
+DbCompany::get_db_interface	db_company.h	/^		DbInterface* get_db_interface(const char* db_name){$/;"	f	class:DbCompany	access:public	signature:(const char* db_name)
+DbCompany::get_db_interface	db_company.h	/^		DbInterface* get_db_interface(uint16_t db_id){$/;"	f	class:DbCompany	access:public	signature:(uint16_t db_id)
+DbCompany::get_global_db_company	db_company.h	/^		GlobalDbCompany* get_global_db_company(){$/;"	f	class:DbCompany	access:public	signature:()
+DbCompany::get_multi_db	db_company.h	/^		int get_multi_db(ReqResultMap& req_result_map){$/;"	f	class:DbCompany	access:public	signature:(ReqResultMap& req_result_map)
+DbCompany::get_multi_db_pthread	db_company.h	/^		static void* get_multi_db_pthread(void* thread_para){$/;"	f	class:DbCompany	access:private	signature:(void* thread_para)
+DbCompany::global_db_company_	db_company.h	/^		GlobalDbCompany* global_db_company_;	$/;"	m	class:DbCompany	access:private
+DbCompany::initialize	db_company.h	/^		int initialize(GlobalDbCompany* global_db_company) {$/;"	f	class:DbCompany	access:public	signature:(GlobalDbCompany* global_db_company)
+DbCompany::load_config	db_company.h	/^		int load_config(const char* file_name){$/;"	f	class:DbCompany	access:public	signature:(const char* file_name)
+DbCompany::map_db_interface_	db_company.h	/^		std::map<uint16_t, DbInterface*> map_db_interface_;$/;"	m	class:DbCompany	access:private
+DbCompany::map_db_str_interface_	db_company.h	/^		std::map<std::string, DbInterface*> map_db_str_interface_;$/;"	m	class:DbCompany	access:private
+DbCompany::mget_multi_db	db_company.h	/^		int mget_multi_db(){$/;"	f	class:DbCompany	access:public	signature:()
+DbCompany::release	db_company.h	/^		void release(){$/;"	f	class:DbCompany	access:private	signature:()
+DbCompany::~DbCompany	db_company.h	/^		~DbCompany() {$/;"	f	class:DbCompany	access:public	signature:()
+DbInterface	db_interface.h	/^		DbInterface(const Db_Info_Struct& db_info_struct):db_info_struct_(db_info_struct), ip_num_(0), $/;"	f	class:DbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+DbInterface	db_interface.h	/^class DbInterface{$/;"	c
+DbInterface::DbInterface	db_interface.h	/^		DbInterface(const Db_Info_Struct& db_info_struct):db_info_struct_(db_info_struct), ip_num_(0), $/;"	f	class:DbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+DbInterface::Hash_Func	db_interface.h	/^		virtual uint64_t Hash_Func(const char*& n_key){$/;"	f	class:DbInterface	access:protected	signature:(const char*& n_key)
+DbInterface::compress_add	db_interface.h	/^		bool compress_add(){$/;"	f	class:DbInterface	access:protected	signature:()
+DbInterface::db_info_struct_	db_interface.h	/^		Db_Info_Struct db_info_struct_; \/\/db info$/;"	m	class:DbInterface	access:protected
+DbInterface::get	db_interface.h	/^		virtual int get(uint16_t type_id, uint64_t n_key, char* &p_result,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+DbInterface::get_i	db_interface.h	/^		virtual int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+DbInterface::get_i	db_interface.h	/^		virtual int get_i(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+DbInterface::get_ip_port	db_interface.h	/^		int get_ip_port(uint64_t n_key,  SvrIpPort& svr_ip_port){$/;"	f	class:DbInterface	access:protected	signature:(uint64_t n_key, SvrIpPort& svr_ip_port)
+DbInterface::gets_ip_port	db_interface.h	/^		int gets_ip_port(uint64_t n_keys[], uint32_t num, MapSplitIpPort& map_ip_port){$/;"	f	class:DbInterface	access:protected	signature:(uint64_t n_keys[], uint32_t num, MapSplitIpPort& map_ip_port)
+DbInterface::initialize	db_interface.h	/^		void initialize(){$/;"	f	class:DbInterface	access:public	signature:()
+DbInterface::ip_num_	db_interface.h	/^		uint16_t ip_num_;$/;"	m	class:DbInterface	access:protected
+DbInterface::mget	db_interface.h	/^		virtual int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+DbInterface::mget_i	db_interface.h	/^		virtual int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+DbInterface::port_num_	db_interface.h	/^		uint16_t port_num_;$/;"	m	class:DbInterface	access:protected
+DbInterface::s_get	db_interface.h	/^		virtual int s_get(uint16_t type_id, const char* p_str_key, char* &p_result,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key = 0)
+DbInterface::un_compress_	db_interface.h	/^		char un_compress_[COMPRESS_NUM][COMPRESS_LEN];$/;"	m	class:DbInterface	access:protected
+DbInterface::un_compress_index_	db_interface.h	/^		int un_compress_index_;$/;"	m	class:DbInterface	access:protected
+DbInterface::vec_str_ip_	db_interface.h	/^		vector<string> vec_str_ip_;$/;"	m	class:DbInterface	access:protected
+DbInterface::vec_str_port_	db_interface.h	/^		vector<string> vec_str_port_;$/;"	m	class:DbInterface	access:protected
+DbInterface::~DbInterface	db_interface.h	/^		virtual ~DbInterface(){$/;"	f	class:DbInterface	access:public	signature:()
+DbInterfaceFactory	db_interface_factory.h	/^		DbInterfaceFactory(){}$/;"	f	class:DbInterfaceFactory	access:public	signature:()
+DbInterfaceFactory	db_interface_factory.h	/^class DbInterfaceFactory{$/;"	c
+DbInterfaceFactory::DbInterfaceFactory	db_interface_factory.h	/^		DbInterfaceFactory(){}$/;"	f	class:DbInterfaceFactory	access:public	signature:()
+DbInterfaceFactory::get_db_interface	db_interface_factory.h	/^		DbInterface* get_db_interface(const Db_Info_Struct& db_info_struct){$/;"	f	class:DbInterfaceFactory	access:public	signature:(const Db_Info_Struct& db_info_struct)
+DbInterfaceFactory::~DbInterfaceFactory	db_interface_factory.h	/^		~DbInterfaceFactory(){}$/;"	f	class:DbInterfaceFactory	access:public	signature:()
+Db_Info_Struct	db_interface.h	/^} Db_Info_Struct;$/;"	t	typeref:struct:_Db_Info_Struct
+Equal_Key	db_interface.h	/^struct Equal_Key{$/;"	s
+Equal_Key::operator ()	db_interface.h	/^    bool operator()(const SvrIpPort& svr_ip_port_a, const SvrIpPort& svr_ip_port_b)const{$/;"	f	struct:Equal_Key	access:public	signature:(const SvrIpPort& svr_ip_port_a, const SvrIpPort& svr_ip_port_b) const
+GLOBAL_AD_DB_TYPE	global_db_interface.h	/^	GLOBAL_AD_DB_TYPE$/;"	e	enum:__anon1
+GLOBAL_DB_TYPE	global_db_interface.h	/^} GLOBAL_DB_TYPE;$/;"	t	typeref:enum:__anon1
+GLOBAL_FD_DB_TYPE	global_db_interface.h	/^	GLOBAL_FD_DB_TYPE,$/;"	e	enum:__anon1
+GLOBAL_FP_DB_TYPE	global_db_interface.h	/^	GLOBAL_FP_DB_TYPE,$/;"	e	enum:__anon1
+GLOBAL_FW_DB_TYPE	global_db_interface.h	/^	GLOBAL_FW_DB_TYPE,$/;"	e	enum:__anon1
+GLOBAL_KV_DB_TYPE	global_db_interface.h	/^    GLOBAL_KV_DB_TYPE,$/;"	e	enum:__anon1
+GLOBAL_MAP_DB_TYPE	global_db_interface.h	/^	GLOBAL_MAP_DB_TYPE,$/;"	e	enum:__anon1
+GLOBAL_NULL_DB_TYPE	global_db_interface.h	/^    GLOBAL_NULL_DB_TYPE,$/;"	e	enum:__anon1
+GLOBAL_SET_DB_TYPE	global_db_interface.h	/^    GLOBAL_SET_DB_TYPE,$/;"	e	enum:__anon1
+GlobalAdDbInterface	global_ad_db_interface.h	/^		GlobalAdDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalAdDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalAdDbInterface	global_ad_db_interface.h	/^class GlobalAdDbInterface : public GlobalDbInterface{$/;"	c	inherits:GlobalDbInterface
+GlobalAdDbInterface::GlobalAdDbInterface	global_ad_db_interface.h	/^		GlobalAdDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalAdDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalAdDbInterface::attr_name_	global_ad_db_interface.h	/^		char attr_name_[WORD_LEN];$/;"	m	class:GlobalAdDbInterface	access:private
+GlobalAdDbInterface::get_ad_info	global_ad_db_interface.h	/^		AdInfo* get_ad_info(uint64_t ad_id){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t ad_id)
+GlobalAdDbInterface::get_ad_status	global_ad_db_interface.h	/^		int get_ad_status(uint64_t ad_id, AD_STATUS& ad_status){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t ad_id, AD_STATUS& ad_status)
+GlobalAdDbInterface::get_array_int	global_ad_db_interface.h	/^		static int get_array_int(json_object* req_json, std::vector<uint64_t>& vec_value,$/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object* req_json, std::vector<uint64_t>& vec_value, const char* name)
+GlobalAdDbInterface::get_str	global_ad_db_interface.h	/^		static int get_str(json_object* req_json, char* &value,$/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object* req_json, char* &value, const char* name)
+GlobalAdDbInterface::get_value	global_ad_db_interface.h	/^		bool get_value(uint64_t id, size_t& length, const char*& value){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t id, size_t& length, const char*& value)
+GlobalAdDbInterface::get_value_float	global_ad_db_interface.h	/^		static int get_value_float(json_object *req_json, float& value, $/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *req_json, float& value, const char* name, float default_value)
+GlobalAdDbInterface::get_value_uint16	global_ad_db_interface.h	/^		static int get_value_uint16(json_object *req_json, uint16_t& value, $/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *req_json, uint16_t& value, const char* name, uint16_t default_value)
+GlobalAdDbInterface::get_value_uint32	global_ad_db_interface.h	/^		static int get_value_uint32(json_object *req_json, uint32_t& value, $/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *req_json, uint32_t& value, const char* name, uint32_t default_value)
+GlobalAdDbInterface::get_value_uint64	global_ad_db_interface.h	/^		static int get_value_uint64(json_object *req_json, uint64_t& value, $/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *req_json, uint64_t& value, const char* name, uint64_t default_value)
+GlobalAdDbInterface::hash_map_ad_	global_ad_db_interface.h	/^		HASH_MAP_AD hash_map_ad_;$/;"	m	class:GlobalAdDbInterface	access:private
+GlobalAdDbInterface::hash_map_ad_index_	global_ad_db_interface.h	/^		HASH_MAP_INDEX hash_map_ad_index_;$/;"	m	class:GlobalAdDbInterface	access:private
+GlobalAdDbInterface::is_exist	global_ad_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t id)
+GlobalAdDbInterface::load_db_config	global_ad_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalAdDbInterface	access:public	signature:()
+GlobalAdDbInterface::map_index_sign_	global_ad_db_interface.h	/^		std::map<std::string, uint8_t> map_index_sign_;$/;"	m	class:GlobalAdDbInterface	access:private
+GlobalAdDbInterface::mget_value	global_ad_db_interface.h	/^		bool mget_value(uint64_t ids[], int ids_len, const char* value[], int& value_len){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t ids[], int ids_len, const char* value[], int& value_len)
+GlobalAdDbInterface::rw_locker_	global_ad_db_interface.h	/^		PthreadRWLocker rw_locker_;$/;"	m	class:GlobalAdDbInterface	access:private
+GlobalAdDbInterface::set_ad_info	global_ad_db_interface.h	/^		int set_ad_info(json_object *ad_info_json){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *ad_info_json)
+GlobalAdDbInterface::set_ad_status	global_ad_db_interface.h	/^		int set_ad_status(uint64_t ad_id, AD_STATUS ad_status){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t ad_id, AD_STATUS ad_status)
+GlobalAdDbInterface::~GlobalAdDbInterface	global_ad_db_interface.h	/^		~GlobalAdDbInterface(){$/;"	f	class:GlobalAdDbInterface	access:public	signature:()
+GlobalDbCompany	global_db_company.h	/^		GlobalDbCompany(){$/;"	f	class:GlobalDbCompany	access:public	signature:()
+GlobalDbCompany	global_db_company.h	/^class GlobalDbCompany{$/;"	c
+GlobalDbCompany::GlobalDbCompany	global_db_company.h	/^		GlobalDbCompany(){$/;"	f	class:GlobalDbCompany	access:public	signature:()
+GlobalDbCompany::get_db_info	global_db_company.h	/^		int get_db_info(const char* file_name, std::vector<std::string>& vec_db_name){$/;"	f	class:GlobalDbCompany	access:private	signature:(const char* file_name, std::vector<std::string>& vec_db_name)
+GlobalDbCompany::get_global_db_interface	global_db_company.h	/^		GlobalDbInterface* get_global_db_interface(const char* db_name){$/;"	f	class:GlobalDbCompany	access:public	signature:(const char* db_name)
+GlobalDbCompany::load_config	global_db_company.h	/^		int load_config(const char* file_name){$/;"	f	class:GlobalDbCompany	access:public	signature:(const char* file_name)
+GlobalDbCompany::map_global_db_interface_	global_db_company.h	/^		map<string, GlobalDbInterface*> map_global_db_interface_;			$/;"	m	class:GlobalDbCompany	access:private
+GlobalDbCompany::update_global_db_interface	global_db_company.h	/^		int update_global_db_interface(GlobalDbInterface* &p_new_db_interface,$/;"	f	class:GlobalDbCompany	access:public	signature:(GlobalDbInterface* &p_new_db_interface, const char* db_name, const char* file_name)
+GlobalDbCompany::~GlobalDbCompany	global_db_company.h	/^		~GlobalDbCompany(){$/;"	f	class:GlobalDbCompany	access:public	signature:()
+GlobalDbInfoStruct	global_db_interface.h	/^		GlobalDbInfoStruct(){}$/;"	f	struct:GlobalDbInfoStruct	access:public	signature:()
+GlobalDbInfoStruct	global_db_interface.h	/^		GlobalDbInfoStruct(const GlobalDbInfoStruct& global_db_info_struct){$/;"	f	struct:GlobalDbInfoStruct	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalDbInfoStruct	global_db_interface.h	/^struct GlobalDbInfoStruct{$/;"	s
+GlobalDbInfoStruct::GlobalDbInfoStruct	global_db_interface.h	/^		GlobalDbInfoStruct(){}$/;"	f	struct:GlobalDbInfoStruct	access:public	signature:()
+GlobalDbInfoStruct::GlobalDbInfoStruct	global_db_interface.h	/^		GlobalDbInfoStruct(const GlobalDbInfoStruct& global_db_info_struct){$/;"	f	struct:GlobalDbInfoStruct	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalDbInfoStruct::db_file_name_	global_db_interface.h	/^		char db_file_name_[WORD_LEN];$/;"	m	struct:GlobalDbInfoStruct	access:public
+GlobalDbInfoStruct::db_name_	global_db_interface.h	/^		char db_name_[WORD_LEN];$/;"	m	struct:GlobalDbInfoStruct	access:public
+GlobalDbInfoStruct::db_type_	global_db_interface.h	/^		GLOBAL_DB_TYPE db_type_;$/;"	m	struct:GlobalDbInfoStruct	access:public
+GlobalDbInfoStruct::kv_split_char_	global_db_interface.h	/^		char kv_split_char_;$/;"	m	struct:GlobalDbInfoStruct	access:public
+GlobalDbInfoStruct::load_config	global_db_interface.h	/^		int load_config(const char* file_name, const char* db_name){$/;"	f	struct:GlobalDbInfoStruct	access:public	signature:(const char* file_name, const char* db_name)
+GlobalDbInterface	global_db_interface.h	/^		GlobalDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalDbInterface	global_db_interface.h	/^class GlobalDbInterface{$/;"	c
+GlobalDbInterface::GlobalDbInterface	global_db_interface.h	/^		GlobalDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalDbInterface::global_db_info_struct_	global_db_interface.h	/^		GlobalDbInfoStruct global_db_info_struct_;$/;"	m	class:GlobalDbInterface	access:public
+GlobalDbInterface::is_exist	global_db_interface.h	/^		virtual bool is_exist(uint64_t id) = 0;$/;"	p	class:GlobalDbInterface	access:public	signature:(uint64_t id)
+GlobalDbInterface::load_db_config	global_db_interface.h	/^		virtual int load_db_config() = 0;$/;"	p	class:GlobalDbInterface	access:public	signature:()
+GlobalDbInterface::~GlobalDbInterface	global_db_interface.h	/^		virtual ~GlobalDbInterface(){$/;"	f	class:GlobalDbInterface	access:public	signature:()
+GlobalDbInterfaceFactory	global_db_interface_factory.h	/^		GlobalDbInterfaceFactory(){}$/;"	f	class:GlobalDbInterfaceFactory	access:public	signature:()
+GlobalDbInterfaceFactory	global_db_interface_factory.h	/^class GlobalDbInterfaceFactory{$/;"	c
+GlobalDbInterfaceFactory::GlobalDbInterfaceFactory	global_db_interface_factory.h	/^		GlobalDbInterfaceFactory(){}$/;"	f	class:GlobalDbInterfaceFactory	access:public	signature:()
+GlobalDbInterfaceFactory::get_global_db_interface	global_db_interface_factory.h	/^		GlobalDbInterface* get_global_db_interface(const GlobalDbInfoStruct& db_info_struct){$/;"	f	class:GlobalDbInterfaceFactory	access:public	signature:(const GlobalDbInfoStruct& db_info_struct)
+GlobalDbInterfaceFactory::~GlobalDbInterfaceFactory	global_db_interface_factory.h	/^		~GlobalDbInterfaceFactory(){}$/;"	f	class:GlobalDbInterfaceFactory	access:public	signature:()
+GlobalFeatureDataDbInterface	global_fd_db_interface.h	/^		GlobalFeatureDataDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalFeatureDataDbInterface	global_fd_db_interface.h	/^class GlobalFeatureDataDbInterface : public GlobalDbInterface{$/;"	c	inherits:GlobalDbInterface
+GlobalFeatureDataDbInterface::GlobalFeatureDataDbInterface	global_fd_db_interface.h	/^		GlobalFeatureDataDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalFeatureDataDbInterface::get_sep	global_fd_db_interface.h	/^		char *get_sep(char *start, char **next, char sep){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(char *start, char **next, char sep)
+GlobalFeatureDataDbInterface::getfeature	global_fd_db_interface.h	/^		UserFeature * getfeature(uint64_t uid){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(uint64_t uid)
+GlobalFeatureDataDbInterface::getinfo	global_fd_db_interface.h	/^		uint8_t getinfo(char *info,int32_t *info_value){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(char *info,int32_t *info_value)
+GlobalFeatureDataDbInterface::is_exist	global_fd_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(uint64_t id)
+GlobalFeatureDataDbInterface::load_db_config	global_fd_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:()
+GlobalFeatureDataDbInterface::set_global_data_	global_fd_db_interface.h	/^		 __gnu_cxx::hash_map<uint64_t,UserFeature *> set_global_data_;$/;"	m	class:GlobalFeatureDataDbInterface	access:private
+GlobalFeatureDataDbInterface::~GlobalFeatureDataDbInterface	global_fd_db_interface.h	/^		~GlobalFeatureDataDbInterface(){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:()
+GlobalFeatureWeightDbInterface	global_fw_db_interface.h	/^		GlobalFeatureWeightDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalFeatureWeightDbInterface	global_fw_db_interface.h	/^class GlobalFeatureWeightDbInterface : public GlobalDbInterface{$/;"	c	inherits:GlobalDbInterface
+GlobalFeatureWeightDbInterface::GlobalFeatureWeightDbInterface	global_fw_db_interface.h	/^		GlobalFeatureWeightDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalFeatureWeightDbInterface::chengv	global_fw_db_interface.h	/^		RPM_Model chengv;$/;"	m	class:GlobalFeatureWeightDbInterface	access:private
+GlobalFeatureWeightDbInterface::getChengV	global_fw_db_interface.h	/^		RPM_Model getChengV()$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+GlobalFeatureWeightDbInterface::getLanV	global_fw_db_interface.h	/^		RPM_Model getLanV()$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+GlobalFeatureWeightDbInterface::getPuhu	global_fw_db_interface.h	/^		RPM_Model getPuhu()$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+GlobalFeatureWeightDbInterface::is_exist	global_fw_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:(uint64_t id)
+GlobalFeatureWeightDbInterface::lanv	global_fw_db_interface.h	/^		RPM_Model lanv;$/;"	m	class:GlobalFeatureWeightDbInterface	access:private
+GlobalFeatureWeightDbInterface::loadModel	global_fw_db_interface.h	/^		void loadModel(const char *file)$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:(const char *file)
+GlobalFeatureWeightDbInterface::load_db_config	global_fw_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+GlobalFeatureWeightDbInterface::puhu	global_fw_db_interface.h	/^		RPM_Model puhu;$/;"	m	class:GlobalFeatureWeightDbInterface	access:private
+GlobalFeatureWeightDbInterface::~GlobalFeatureWeightDbInterface	global_fw_db_interface.h	/^		~GlobalFeatureWeightDbInterface(){$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+GlobalFpDbInterface	global_fp_db_interface.h	/^		GlobalFpDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalFpDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalFpDbInterface	global_fp_db_interface.h	/^class GlobalFpDbInterface : public GlobalDbInterface{$/;"	c	inherits:GlobalDbInterface
+GlobalFpDbInterface::GlobalFpDbInterface	global_fp_db_interface.h	/^		GlobalFpDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalFpDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalFpDbInterface::api_fp_	global_fp_db_interface.h	/^		ApiFeaturePool api_fp_;$/;"	m	class:GlobalFpDbInterface	access:private
+GlobalFpDbInterface::get_value	global_fp_db_interface.h	/^		bool get_value(uint64_t& return_value, uint64_t id, $/;"	f	class:GlobalFpDbInterface	access:public	signature:(uint64_t& return_value, uint64_t id, uint64_t item_id, const char* dbid)
+GlobalFpDbInterface::gets_value	global_fp_db_interface.h	/^		bool gets_value(std::map<uint64_t, uint64_t>& map_return_value, uint64_t key,$/;"	f	class:GlobalFpDbInterface	access:public	signature:(std::map<uint64_t, uint64_t>& map_return_value, uint64_t key, const std::vector<uint64_t>& vec_item_key, const char* dbid)
+GlobalFpDbInterface::is_exist	global_fp_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalFpDbInterface	access:public	signature:(uint64_t id)
+GlobalFpDbInterface::is_exist	global_fp_db_interface.h	/^		bool is_exist(uint64_t id, const char* dbid){$/;"	f	class:GlobalFpDbInterface	access:public	signature:(uint64_t id, const char* dbid)
+GlobalFpDbInterface::load_db_config	global_fp_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalFpDbInterface	access:public	signature:()
+GlobalFpDbInterface::mgets_i_value	global_fp_db_interface.h	/^		bool mgets_i_value(KeyCodeItemMap& map_return_value,$/;"	f	class:GlobalFpDbInterface	access:public	signature:(KeyCodeItemMap& map_return_value, const KeyItemVec& key_item_vec, const char* dbid)
+GlobalFpDbInterface::mgets_value	global_fp_db_interface.h	/^		bool mgets_value(KeyCodeItemMap& map_return_value, const std::vector<uint64_t>& vec_key,$/;"	f	class:GlobalFpDbInterface	access:public	signature:(KeyCodeItemMap& map_return_value, const std::vector<uint64_t>& vec_key, const std::vector<uint64_t>& vec_item_key, const char* dbid)
+GlobalFpDbInterface::size	global_fp_db_interface.h	/^		int size(const char* dbid){$/;"	f	class:GlobalFpDbInterface	access:public	signature:(const char* dbid)
+GlobalFpDbInterface::~GlobalFpDbInterface	global_fp_db_interface.h	/^		~GlobalFpDbInterface(){$/;"	f	class:GlobalFpDbInterface	access:public	signature:()
+GlobalKVDbInterface	global_kv_db_interface.h	/^		GlobalKVDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalKVDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalKVDbInterface	global_kv_db_interface.h	/^class GlobalKVDbInterface : public GlobalDbInterface{$/;"	c	inherits:GlobalDbInterface
+GlobalKVDbInterface::GlobalKVDbInterface	global_kv_db_interface.h	/^		GlobalKVDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalKVDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalKVDbInterface::get_value	global_kv_db_interface.h	/^		bool get_value(uint64_t id, uint32_t& value){$/;"	f	class:GlobalKVDbInterface	access:public	signature:(uint64_t id, uint32_t& value)
+GlobalKVDbInterface::hashmap_global_data_	global_kv_db_interface.h	/^		 __gnu_cxx::hash_map<uint64_t, uint32_t> hashmap_global_data_;$/;"	m	class:GlobalKVDbInterface	access:private
+GlobalKVDbInterface::is_exist	global_kv_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalKVDbInterface	access:public	signature:(uint64_t id)
+GlobalKVDbInterface::load_db_config	global_kv_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalKVDbInterface	access:public	signature:()
+GlobalKVDbInterface::~GlobalKVDbInterface	global_kv_db_interface.h	/^		~GlobalKVDbInterface(){$/;"	f	class:GlobalKVDbInterface	access:public	signature:()
+GlobalMapDbInterface	global_map_db_interface.h	/^		GlobalMapDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalMapDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalMapDbInterface	global_map_db_interface.h	/^class GlobalMapDbInterface : public GlobalDbInterface{$/;"	c	inherits:GlobalDbInterface
+GlobalMapDbInterface::GlobalMapDbInterface	global_map_db_interface.h	/^		GlobalMapDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalMapDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalMapDbInterface::get_value	global_map_db_interface.h	/^		bool get_value(uint64_t id, size_t& length, const char*& value){$/;"	f	class:GlobalMapDbInterface	access:public	signature:(uint64_t id, size_t& length, const char*& value)
+GlobalMapDbInterface::is_exist	global_map_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalMapDbInterface	access:public	signature:(uint64_t id)
+GlobalMapDbInterface::load_db_config	global_map_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalMapDbInterface	access:public	signature:()
+GlobalMapDbInterface::map_db_	global_map_db_interface.h	/^		MapDb map_db_;$/;"	m	class:GlobalMapDbInterface	access:private
+GlobalMapDbInterface::mget_value	global_map_db_interface.h	/^		bool mget_value(uint64_t ids[], int ids_len, const char* value[], int& value_len){$/;"	f	class:GlobalMapDbInterface	access:public	signature:(uint64_t ids[], int ids_len, const char* value[], int& value_len)
+GlobalMapDbInterface::~GlobalMapDbInterface	global_map_db_interface.h	/^		~GlobalMapDbInterface(){$/;"	f	class:GlobalMapDbInterface	access:public	signature:()
+GlobalSetDbInterface	global_set_db_interface.h	/^		GlobalSetDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalSetDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalSetDbInterface	global_set_db_interface.h	/^class GlobalSetDbInterface : public GlobalDbInterface{$/;"	c	inherits:GlobalDbInterface
+GlobalSetDbInterface::GlobalSetDbInterface	global_set_db_interface.h	/^		GlobalSetDbInterface(const GlobalDbInfoStruct& global_db_info_struct):$/;"	f	class:GlobalSetDbInterface	access:public	signature:(const GlobalDbInfoStruct& global_db_info_struct)
+GlobalSetDbInterface::is_exist	global_set_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalSetDbInterface	access:public	signature:(uint64_t id)
+GlobalSetDbInterface::load_db_config	global_set_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalSetDbInterface	access:public	signature:()
+GlobalSetDbInterface::set_global_data_	global_set_db_interface.h	/^		 __gnu_cxx::hash_set<uint64_t> set_global_data_;$/;"	m	class:GlobalSetDbInterface	access:private
+GlobalSetDbInterface::~GlobalSetDbInterface	global_set_db_interface.h	/^		~GlobalSetDbInterface(){$/;"	f	class:GlobalSetDbInterface	access:public	signature:()
+HASH_MAP_AD	global_ad_db_interface.h	/^typedef __gnu_cxx::hash_map<uint64_t, AdInfo*> HASH_MAP_AD;$/;"	t
+HASH_MAP_INDEX	global_ad_db_interface.h	/^typedef __gnu_cxx::hash_map<uint64_t, VEC_AD> HASH_MAP_INDEX;$/;"	t
+Hash_Func	db_interface.h	/^		virtual uint64_t Hash_Func(const char*& n_key){$/;"	f	class:DbInterface	access:protected	signature:(const char*& n_key)
+Hash_Key	db_interface.h	/^struct Hash_Key{$/;"	s
+Hash_Key::operator ()	db_interface.h	/^	size_t operator()(const SvrIpPort& svr_ip_port)const{$/;"	f	struct:Hash_Key	access:public	signature:(const SvrIpPort& svr_ip_port) const
+HiRedisDbInterface	hiredis_db_interface.h	/^		HiRedisDbInterface(const Db_Info_Struct& db_info_struct):$/;"	f	class:HiRedisDbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+HiRedisDbInterface	hiredis_db_interface.h	/^class HiRedisDbInterface : public DbInterface{$/;"	c	inherits:DbInterface
+HiRedisDbInterface::HiRedisDbInterface	hiredis_db_interface.h	/^		HiRedisDbInterface(const Db_Info_Struct& db_info_struct):$/;"	f	class:HiRedisDbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+HiRedisDbInterface::get	hiredis_db_interface.h	/^		int get(uint16_t type_id, uint64_t n_key, char* &p_result, $/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+HiRedisDbInterface::get_i	hiredis_db_interface.h	/^		int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+HiRedisDbInterface::get_i	hiredis_db_interface.h	/^		int get_i(uint16_t type_id, uint64_t n_key, uint32_t item_key,$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+HiRedisDbInterface::get_redis	hiredis_db_interface.h	/^		redisContext* get_redis(uint64_t n_key, SvrIpPort& svr_ip_port){$/;"	f	class:HiRedisDbInterface	access:private	signature:(uint64_t n_key, SvrIpPort& svr_ip_port)
+HiRedisDbInterface::get_redis_raw	hiredis_db_interface.h	/^		redisContext* get_redis_raw(SvrIpPort& svr_ip_port){$/;"	f	class:HiRedisDbInterface	access:private	signature:(SvrIpPort& svr_ip_port)
+HiRedisDbInterface::mget	hiredis_db_interface.h	/^		int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result,$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+HiRedisDbInterface::mget_i	hiredis_db_interface.h	/^		int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+HiRedisDbInterface::mget_i_internal	hiredis_db_interface.h	/^		int mget_i_internal(SvrIpPort* &p_svr_ip_port,  ReqStruct* &p_req_struct,$/;"	f	class:HiRedisDbInterface	access:public	signature:(SvrIpPort* &p_svr_ip_port, ReqStruct* &p_req_struct, VecMResult*& p_vec_result, char un_compress[][COMPRESS_LEN], int spend_time[])
+HiRedisDbInterface::mget_i_internal_pthread	hiredis_db_interface.h	/^		static void* mget_i_internal_pthread(void* thread_para){$/;"	f	class:HiRedisDbInterface	access:public	signature:(void* thread_para)
+HiRedisDbInterface::mget_i_multi	hiredis_db_interface.h	/^		int mget_i_multi(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+HiRedisDbInterface::s_get	hiredis_db_interface.h	/^		int s_get(uint16_t type_id, const char* p_str_key, char* &p_result, $/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key)
+HiRedisDbInterface::s_set	hiredis_db_interface.h	/^		int s_set(uint16_t type_id, const char* p_str_key, const char* p_value, uint64_t n_key){$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, const char* p_value, uint64_t n_key)
+HiRedisDbInterface::set_i	hiredis_db_interface.h	/^		int set_i(uint16_t type_id, uint64_t n_key, uint32_t item_key,$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t item_key, const char* value, const char* other_key = NULL, bool other_flag = false)
+HiRedisDbInterface::vec_redis_server_	hiredis_db_interface.h	/^		vector<Redis_Struct> vec_redis_server_;	$/;"	m	class:HiRedisDbInterface	access:private
+HiRedisDbInterface::~HiRedisDbInterface	hiredis_db_interface.h	/^		~HiRedisDbInterface(){$/;"	f	class:HiRedisDbInterface	access:public	signature:()
+MAX_READ_BUFFER_SIZE	global_fd_db_interface.h	16;"	d
+MAX_SUB_BUFFER_SIZE	global_fd_db_interface.h	17;"	d
+MAX_UNIT_LENGTH	global_fd_db_interface.h	18;"	d
+MC_DB_TYPE	db_interface.h	/^	MC_DB_TYPE$/;"	e	enum:__anon2
+MapKeyType	db_interface.h	/^typedef set<uint64_t> MapKeyType;$/;"	t
+MapMResult	db_interface.h	/^typedef map<uint64_t, const char*> MapMResult;$/;"	t
+MapSplitIpPort	db_interface.h	/^typedef __gnu_cxx::hash_map<SvrIpPort, ReqStruct, Hash_Key, Equal_Key> MapSplitIpPort;$/;"	t
+McDbInterface	mc_db_interface.h	/^		McDbInterface(const Db_Info_Struct& db_info_struct):$/;"	f	class:McDbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+McDbInterface	mc_db_interface.h	/^class McDbInterface : public DbInterface{$/;"	c	inherits:DbInterface
+McDbInterface::McDbInterface	mc_db_interface.h	/^		McDbInterface(const Db_Info_Struct& db_info_struct):$/;"	f	class:McDbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+McDbInterface::get	mc_db_interface.h	/^		int get(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char){$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+McDbInterface::get_i	mc_db_interface.h	/^		int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+McDbInterface::get_i	mc_db_interface.h	/^		int get_i(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+McDbInterface::get_mc_raw	mc_db_interface.h	/^		memcached_st* get_mc_raw(SvrIpPort& svr_ip_port){$/;"	f	class:McDbInterface	access:protected	signature:(SvrIpPort& svr_ip_port)
+McDbInterface::mget	mc_db_interface.h	/^		int mget(uint16_t type_id, const char* str_keys[], uint32_t keys_num, char* results_array[],$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, const char* str_keys[], uint32_t keys_num, char* results_array[], uint32_t& results_num, char& split_char, char& second_split_char)
+McDbInterface::mget	mc_db_interface.h	/^		int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result,$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+McDbInterface::mget_i	mc_db_interface.h	/^		int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+McDbInterface::s_get	mc_db_interface.h	/^		int s_get(uint16_t type_id, const char* p_str_key, char* &p_result, $/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key)
+McDbInterface::vec_mc_server_	mc_db_interface.h	/^		vector<Mc_Struct> vec_mc_server_;$/;"	m	class:McDbInterface	access:protected
+McDbInterface::~McDbInterface	mc_db_interface.h	/^		virtual ~McDbInterface(){$/;"	f	class:McDbInterface	access:public	signature:()
+Mc_Struct	mc_db_interface.h	/^} Mc_Struct;$/;"	t	typeref:struct:_Mc_Struct
+PairIC	db_interface.h	/^typedef pair<uint64_t, const char*> PairIC;$/;"	t
+REDIS_DB_TYPE	db_interface.h	/^	REDIS_DB_TYPE,$/;"	e	enum:__anon2
+RPM_Model	global_fw_db_interface.h	/^class RPM_Model{$/;"	c
+RPM_Model::mm	global_fw_db_interface.h	/^        map<int,vector<double> > mm;$/;"	m	class:RPM_Model	access:public
+RPM_Model::needDisFea	global_fw_db_interface.h	/^        vector<int> needDisFea;$/;"	m	class:RPM_Model	access:public
+RPM_Model::para	global_fw_db_interface.h	/^        vector<double> para;$/;"	m	class:RPM_Model	access:public
+RedisThreadPara	hiredis_db_interface.h	/^} RedisThreadPara;$/;"	t	typeref:struct:_RedisThreadPara
+Redis_Struct	hiredis_db_interface.h	/^} Redis_Struct;$/;"	t	typeref:struct:_Redis_Struct
+ReqResultMap	db_company.h	/^typedef std::map<uint16_t, RequestPara*> ReqResultMap; \/\/db 标号，请求数据$/;"	t
+ReqStruct	db_interface.h	/^} ReqStruct;$/;"	t	typeref:struct:_ReqStruct
+RequestPara	db_company.h	/^} RequestPara;$/;"	t	typeref:struct:_RequestPara
+SvrIpPort	db_interface.h	/^} SvrIpPort;$/;"	t	typeref:struct:_SvrIpPort
+UserFeature	global_fd_db_interface.h	/^struct UserFeature {$/;"	s
+UserFeature::age	global_fd_db_interface.h	/^	uint16_t age;			\/\/ 年龄8位应该就够了？$/;"	m	struct:UserFeature	access:public
+UserFeature::category1	global_fd_db_interface.h	/^	int32_t category1;$/;"	m	struct:UserFeature	access:public
+UserFeature::category2	global_fd_db_interface.h	/^	int32_t category2;$/;"	m	struct:UserFeature	access:public
+UserFeature::category3	global_fd_db_interface.h	/^	int32_t category3;$/;"	m	struct:UserFeature	access:public
+UserFeature::city	global_fd_db_interface.h	/^	uint16_t city;$/;"	m	struct:UserFeature	access:public
+UserFeature::corp_count	global_fd_db_interface.h	/^	int8_t corp_count:4;$/;"	m	struct:UserFeature	access:public
+UserFeature::corps	global_fd_db_interface.h	/^	int32_t corps[MAX_UNIT_LENGTH];$/;"	m	struct:UserFeature	access:public
+UserFeature::fanscount	global_fd_db_interface.h	/^	uint32_t fanscount;$/;"	m	struct:UserFeature	access:public
+UserFeature::followcount	global_fd_db_interface.h	/^	uint16_t followcount;$/;"	m	struct:UserFeature	access:public
+UserFeature::gender	global_fd_db_interface.h	/^	int8_t gender:1;			\/\/ 性别只需要1位$/;"	m	struct:UserFeature	access:public
+UserFeature::ismember	global_fd_db_interface.h	/^	int8_t ismember:1;		\/\/ 是否会员只需要1位$/;"	m	struct:UserFeature	access:public
+UserFeature::isred	global_fd_db_interface.h	/^	int8_t isred:1;			\/\/ 是否加红只需要1位$/;"	m	struct:UserFeature	access:public
+UserFeature::isvip	global_fd_db_interface.h	/^	int8_t isvip:1;			\/\/ 是否vip只需要1位$/;"	m	struct:UserFeature	access:public
+UserFeature::province	global_fd_db_interface.h	/^	uint16_t province;$/;"	m	struct:UserFeature	access:public
+UserFeature::regday	global_fd_db_interface.h	/^	uint16_t regday;$/;"	m	struct:UserFeature	access:public
+UserFeature::school_count	global_fd_db_interface.h	/^	int8_t school_count:4;	\/\/ 学校和公司的数量不会都超过4个，每个需要三位$/;"	m	struct:UserFeature	access:public
+UserFeature::schools	global_fd_db_interface.h	/^	int32_t schools[MAX_UNIT_LENGTH];$/;"	m	struct:UserFeature	access:public
+UserFeature::uid	global_fd_db_interface.h	/^	uint64_t uid;	$/;"	m	struct:UserFeature	access:public
+UserFeature::viplevel	global_fd_db_interface.h	/^	int8_t viplevel;$/;"	m	struct:UserFeature	access:public
+UserFeature::viptype	global_fd_db_interface.h	/^	int8_t viptype;$/;"	m	struct:UserFeature	access:public
+UserFeature::weibocount	global_fd_db_interface.h	/^	uint16_t weibocount;$/;"	m	struct:UserFeature	access:public
+UserFeature::yesrpm1	global_fd_db_interface.h	/^    int16_t yesrpm1;$/;"	m	struct:UserFeature	access:public
+UserFeature::yesrpm2	global_fd_db_interface.h	/^	int16_t yesrpm2;$/;"	m	struct:UserFeature	access:public
+UserFeature::yesrpm3	global_fd_db_interface.h	/^	int16_t yesrpm3;$/;"	m	struct:UserFeature	access:public
+VEC_AD	global_ad_db_interface.h	/^typedef std::vector<AdInfo*> VEC_AD;$/;"	t
+VecMResult	db_interface.h	/^typedef vector<PairIC> VecMResult;$/;"	t
+WOO_DB_TYPE	db_interface.h	/^	WOO_DB_TYPE,$/;"	e	enum:__anon2
+WooDbInterface	woo_db_interface.h	/^		WooDbInterface(const Db_Info_Struct& db_info_struct):$/;"	f	class:WooDbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+WooDbInterface	woo_db_interface.h	/^class WooDbInterface : public DbInterface{$/;"	c	inherits:DbInterface
+WooDbInterface::WooDbInterface	woo_db_interface.h	/^		WooDbInterface(const Db_Info_Struct& db_info_struct):$/;"	f	class:WooDbInterface	access:public	signature:(const Db_Info_Struct& db_info_struct)
+WooDbInterface::binary_client_fd_isset	woo_db_interface.h	/^		int binary_client_fd_isset(woo::binary_client_t *client, fd_set *rfds) {$/;"	f	class:WooDbInterface	access:private	signature:(woo::binary_client_t *client, fd_set *rfds)
+WooDbInterface::binary_client_fd_set	woo_db_interface.h	/^		int binary_client_fd_set(woo::binary_client_t *client, fd_set *rfds, int *nfds) {$/;"	f	class:WooDbInterface	access:private	signature:(woo::binary_client_t *client, fd_set *rfds, int *nfds)
+WooDbInterface::get	woo_db_interface.h	/^		int get(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char){$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+WooDbInterface::get_i	woo_db_interface.h	/^		int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+WooDbInterface::get_i	woo_db_interface.h	/^		int get_i(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+WooDbInterface::get_ip_num	woo_db_interface.h	/^		uint16_t get_ip_num(){$/;"	f	class:WooDbInterface	access:public	signature:()
+WooDbInterface::get_woo_result	woo_db_interface.h	/^		int get_woo_result(const SvrIpPort& svr_ip_port, const char* req, char* &resp_buf){$/;"	f	class:WooDbInterface	access:protected	signature:(const SvrIpPort& svr_ip_port, const char* req, char* &resp_buf)
+WooDbInterface::get_woo_result	woo_db_interface.h	/^		int get_woo_result(uint64_t n_key, const char* req, char* &resp_buf){$/;"	f	class:WooDbInterface	access:protected	signature:(uint64_t n_key, const char* req, char* &resp_buf)
+WooDbInterface::mget	woo_db_interface.h	/^		int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result,$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+WooDbInterface::mget_i	woo_db_interface.h	/^		int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+WooDbInterface::s_get	woo_db_interface.h	/^		int s_get(uint16_t type_id, const char* p_str_key, char* &p_result, $/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key = 0)
+WooDbInterface::smget_i	woo_db_interface.h	/^		int smget_i(uint16_t type_id, char* p_keys[], uint32_t key_num,$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, char* p_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+WooDbInterface::vec_client_t_	woo_db_interface.h	/^		vector<woo::binary_client_t*> vec_client_t_;$/;"	m	class:WooDbInterface	access:protected
+WooDbInterface::vec_server_	woo_db_interface.h	/^		vector<Woo_Struct> vec_server_;$/;"	m	class:WooDbInterface	access:protected
+WooDbInterface::~WooDbInterface	woo_db_interface.h	/^		virtual ~WooDbInterface(){$/;"	f	class:WooDbInterface	access:public	signature:()
+Woo_Struct	woo_db_interface.h	/^} Woo_Struct;$/;"	t	typeref:struct:_Woo_Struct
+XBSON	global_ad_db_interface.h	/^		XBSON(){$/;"	f	class:XBSON	access:private	signature:()
+XBSON	global_ad_db_interface.h	/^		XBSON(uint16_t data_size):bson_data_(NULL){$/;"	f	class:XBSON	access:public	signature:(uint16_t data_size)
+XBSON	global_ad_db_interface.h	/^class XBSON{$/;"	c
+XBSON::XBSON	global_ad_db_interface.h	/^		XBSON(){$/;"	f	class:XBSON	access:private	signature:()
+XBSON::XBSON	global_ad_db_interface.h	/^		XBSON(uint16_t data_size):bson_data_(NULL){$/;"	f	class:XBSON	access:public	signature:(uint16_t data_size)
+XBSON::bson_	global_ad_db_interface.h	/^		xbson bson_;$/;"	m	class:XBSON	access:private
+XBSON::bson_data_	global_ad_db_interface.h	/^		char* bson_data_;$/;"	m	class:XBSON	access:private
+XBSON::get_str	global_ad_db_interface.h	/^		int get_str(char buf[], size_t buf_size, size_t& len){$/;"	f	class:XBSON	access:public	signature:(char buf[], size_t buf_size, size_t& len)
+XBSON::get_sub_str	global_ad_db_interface.h	/^		int get_sub_str(const char* name, char buf[], $/;"	f	class:XBSON	access:public	signature:(const char* name, char buf[], size_t buf_size, size_t& len)
+XBSON::init	global_ad_db_interface.h	/^		int init(const char* data_str){$/;"	f	class:XBSON	access:public	signature:(const char* data_str)
+XBSON::~XBSON	global_ad_db_interface.h	/^		~XBSON(){$/;"	f	class:XBSON	access:public	signature:()
+_API_DB_INTERFACE_HEADER_	api_db_interface.h	2;"	d
+_DB_COMPANY_HEADER_	db_company.h	2;"	d
+_DB_INTERFACE_FACTORY_HEADER_	db_interface_factory.h	2;"	d
+_DB_INTERFACE_HEADER_	db_interface.h	2;"	d
+_Db_Info_Struct	db_interface.h	/^		_Db_Info_Struct(){}$/;"	f	struct:_Db_Info_Struct	access:public	signature:()
+_Db_Info_Struct	db_interface.h	/^		_Db_Info_Struct(const _Db_Info_Struct& db_info_struct){$/;"	f	struct:_Db_Info_Struct	access:public	signature:(const _Db_Info_Struct& db_info_struct)
+_Db_Info_Struct	db_interface.h	/^typedef struct _Db_Info_Struct{$/;"	s
+_Db_Info_Struct::_Db_Info_Struct	db_interface.h	/^		_Db_Info_Struct(){}$/;"	f	struct:_Db_Info_Struct	access:public	signature:()
+_Db_Info_Struct::_Db_Info_Struct	db_interface.h	/^		_Db_Info_Struct(const _Db_Info_Struct& db_info_struct){$/;"	f	struct:_Db_Info_Struct	access:public	signature:(const _Db_Info_Struct& db_info_struct)
+_Db_Info_Struct::compress_flag_	db_interface.h	/^	uint8_t compress_flag_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::db_id_	db_interface.h	/^	uint16_t db_id_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::db_index_	db_interface.h	/^	uint16_t db_index_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::db_name_	db_interface.h	/^	char db_name_[WORD_LEN];$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::db_type_	db_interface.h	/^	DB_TYPE db_type_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::ip_split_first_char_	db_interface.h	/^	char ip_split_first_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::ip_split_second_char_	db_interface.h	/^	char ip_split_second_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::ip_type_	db_interface.h	/^	uint8_t ip_type_; \/\/ 0 is for CNC; 1 is for CT$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::key_value_type_	db_interface.h	/^	uint8_t key_value_type_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::load_config	db_interface.h	/^		int load_config(const char* file_name, const char* db_name){$/;"	f	struct:_Db_Info_Struct	access:public	signature:(const char* file_name, const char* db_name)
+_Db_Info_Struct::mget_thread_num_	db_interface.h	/^	uint8_t mget_thread_num_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::mget_type_	db_interface.h	/^	uint8_t mget_type_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::passwd_flag_	db_interface.h	/^	bool passwd_flag_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::port_split_char_	db_interface.h	/^    char port_split_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::select_type_	db_interface.h	/^	uint8_t select_type_; $/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::svr_ip_	db_interface.h	/^	char svr_ip_[PATH_MAX];$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::svr_port_	db_interface.h	/^	char svr_port_[PORT_LEN];$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::timeout_	db_interface.h	/^	uint16_t timeout_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::token_flag_	db_interface.h	/^	bool token_flag_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::user_passwd_	db_interface.h	/^	char user_passwd_[MAX_BUFFER];$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::value_split_first_char_	db_interface.h	/^	char value_split_first_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::value_split_second_char_	db_interface.h	/^	char value_split_second_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+_Db_Info_Struct::value_string_type_	db_interface.h	/^	uint8_t value_string_type_; $/;"	m	struct:_Db_Info_Struct	access:public
+_GLOBAL_AD_DB_INTERFACE_HEADER_	global_ad_db_interface.h	2;"	d
+_GLOBAL_DB_COMPANY_HEADER_	global_db_company.h	2;"	d
+_GLOBAL_DB_INTERFACE_FACTORY_HEADER_	global_db_interface_factory.h	2;"	d
+_GLOBAL_DB_INTERFACE_HEADER_	global_db_interface.h	2;"	d
+_GLOBAL_FEATUREDATA_DB_INTERFACE_HEADER_	global_fd_db_interface.h	2;"	d
+_GLOBAL_FEATUREWEIGHT_DB_INTERFACE_HEADER_	global_fw_db_interface.h	2;"	d
+_GLOBAL_FP_DB_INTERFACE_HEADER_	global_fp_db_interface.h	2;"	d
+_GLOBAL_KV_DB_INTERFACE_HEADER_	global_kv_db_interface.h	2;"	d
+_GLOBAL_MAP_DB_INTERFACE_HEADER_	global_map_db_interface.h	2;"	d
+_GLOBAL_SET_DB_INTERFACE_HEADER_	global_set_db_interface.h	2;"	d
+_HIREDIS_DB_INTERFACE_HEADER_	hiredis_db_interface.h	2;"	d
+_MC_DB_INTERFACE_HEADER_	mc_db_interface.h	2;"	d
+_Mc_Struct	mc_db_interface.h	/^typedef struct _Mc_Struct{$/;"	s
+_Mc_Struct::ip_	mc_db_interface.h	/^	char ip_[IP_WORD_LEN];	$/;"	m	struct:_Mc_Struct	access:public
+_Mc_Struct::memc_	mc_db_interface.h	/^	memcached_st *memc_;$/;"	m	struct:_Mc_Struct	access:public
+_Mc_Struct::port_	mc_db_interface.h	/^	uint32_t port_;$/;"	m	struct:_Mc_Struct	access:public
+_RedisThreadPara	hiredis_db_interface.h	/^typedef struct _RedisThreadPara{$/;"	s
+_RedisThreadPara::n_spend_time_	hiredis_db_interface.h	/^	int n_spend_time_[4];$/;"	m	struct:_RedisThreadPara	access:public
+_RedisThreadPara::p_redis_db_interface_	hiredis_db_interface.h	/^	HiRedisDbInterface* p_redis_db_interface_;$/;"	m	struct:_RedisThreadPara	access:public
+_RedisThreadPara::p_req_struct_	hiredis_db_interface.h	/^	ReqStruct* p_req_struct_;$/;"	m	struct:_RedisThreadPara	access:public
+_RedisThreadPara::p_svr_ip_port_	hiredis_db_interface.h	/^	SvrIpPort* p_svr_ip_port_;	$/;"	m	struct:_RedisThreadPara	access:public
+_RedisThreadPara::p_uncompress_	hiredis_db_interface.h	/^	char (*p_uncompress_) [COMPRESS_LEN];$/;"	m	struct:_RedisThreadPara	access:public
+_RedisThreadPara::p_vec_result_	hiredis_db_interface.h	/^    VecMResult* p_vec_result_;$/;"	m	struct:_RedisThreadPara	access:public
+_Redis_Struct	hiredis_db_interface.h	/^typedef struct _Redis_Struct{$/;"	s
+_Redis_Struct::ip_	hiredis_db_interface.h	/^	char ip_[IP_WORD_LEN];	$/;"	m	struct:_Redis_Struct	access:public
+_Redis_Struct::port_	hiredis_db_interface.h	/^	uint32_t port_;$/;"	m	struct:_Redis_Struct	access:public
+_Redis_Struct::redis_	hiredis_db_interface.h	/^	redisContext *redis_;$/;"	m	struct:_Redis_Struct	access:public
+_ReqStruct	db_interface.h	/^	_ReqStruct():num_(0){}$/;"	f	struct:_ReqStruct	access:public	signature:()
+_ReqStruct	db_interface.h	/^typedef struct _ReqStruct{$/;"	s
+_ReqStruct::_ReqStruct	db_interface.h	/^	_ReqStruct():num_(0){}$/;"	f	struct:_ReqStruct	access:public	signature:()
+_ReqStruct::n_requsts_	db_interface.h	/^	uint64_t n_requsts_[PATH_MAX];$/;"	m	struct:_ReqStruct	access:public
+_ReqStruct::num_	db_interface.h	/^	uint32_t num_;$/;"	m	struct:_ReqStruct	access:public
+_ReqStruct::step_	db_interface.h	/^	int step_;$/;"	m	struct:_ReqStruct	access:public
+_RequestPara	db_company.h	/^typedef struct _RequestPara{$/;"	s
+_RequestPara::get_type_	db_company.h	/^	bool get_type_; \/\/ true 表示通过n_key_获取，false 表示通过p_str_key_获取$/;"	m	struct:_RequestPara	access:public
+_RequestPara::n_item_key_	db_company.h	/^	uint32_t n_item_key_; \/\/ 请求子key，一般不使用$/;"	m	struct:_RequestPara	access:public
+_RequestPara::n_key_	db_company.h	/^	uint64_t n_key_; \/\/ 请求key$/;"	m	struct:_RequestPara	access:public
+_RequestPara::n_log_id_	db_company.h	/^	int64_t n_log_id_;$/;"	m	struct:_RequestPara	access:public
+_RequestPara::p_db_interface_	db_company.h	/^	DbInterface* p_db_interface_; \/\/ 当前数据库实体$/;"	m	struct:_RequestPara	access:public
+_RequestPara::p_result_	db_company.h	/^	char* p_result_; \/\/ 结果返回$/;"	m	struct:_RequestPara	access:public
+_RequestPara::p_str_key_	db_company.h	/^	char* p_str_key_; \/\/ 请求字符型 key$/;"	m	struct:_RequestPara	access:public
+_RequestPara::second_split_char_	db_company.h	/^	char second_split_char_; \/\/ 返回二级分割字符$/;"	m	struct:_RequestPara	access:public
+_RequestPara::split_char_	db_company.h	/^	char split_char_; \/\/ 返回分割字符$/;"	m	struct:_RequestPara	access:public
+_RequestPara::type_id_	db_company.h	/^	uint16_t type_id_; \/\/ 类型，一般不使用$/;"	m	struct:_RequestPara	access:public
+_SvrIpPort	db_interface.h	/^	_SvrIpPort(){$/;"	f	struct:_SvrIpPort	access:public	signature:()
+_SvrIpPort	db_interface.h	/^typedef struct _SvrIpPort {$/;"	s
+_SvrIpPort::_SvrIpPort	db_interface.h	/^	_SvrIpPort(){$/;"	f	struct:_SvrIpPort	access:public	signature:()
+_SvrIpPort::ip_index_	db_interface.h	/^	uint16_t ip_index_;$/;"	m	struct:_SvrIpPort	access:public
+_SvrIpPort::port_index_	db_interface.h	/^	uint16_t port_index_;$/;"	m	struct:_SvrIpPort	access:public
+_SvrIpPort::print	db_interface.h	/^	void print(){$/;"	f	struct:_SvrIpPort	access:public	signature:()
+_WOO_DB_INTERFACE_HEADER_	woo_db_interface.h	2;"	d
+_Woo_Struct	woo_db_interface.h	/^typedef struct _Woo_Struct{$/;"	s
+_Woo_Struct::ip_	woo_db_interface.h	/^	char ip_[IP_WORD_LEN];$/;"	m	struct:_Woo_Struct	access:public
+_Woo_Struct::port_	woo_db_interface.h	/^	uint32_t port_;$/;"	m	struct:_Woo_Struct	access:public
+__anon6::end_time_	global_ad_db_interface.h	/^	uint32_t end_time_;$/;"	m	struct:__anon6	access:public
+__anon6::insert_time_	global_ad_db_interface.h	/^	uint32_t insert_time_;$/;"	m	struct:__anon6	access:public
+__anon6::start_time_	global_ad_db_interface.h	/^	uint32_t start_time_;$/;"	m	struct:__anon6	access:public
+__anon6::update_time_	global_ad_db_interface.h	/^	uint32_t update_time_;$/;"	m	struct:__anon6	access:public
+__anon7::ad_budget_	global_ad_db_interface.h	/^	float ad_budget_;$/;"	m	struct:__anon7	access:public
+__anon7::ad_price_	global_ad_db_interface.h	/^	float ad_price_;$/;"	m	struct:__anon7	access:public
+__anon7::ad_price_ceiling_	global_ad_db_interface.h	/^	float ad_price_ceiling_; $/;"	m	struct:__anon7	access:public
+_output_buf_t	api_db_interface.h	/^		typedef struct _output_buf_t{$/;"	s	class:ApiDbInterface	access:public
+ad_bid_type_	global_ad_db_interface.h	/^		AD_BID_TYPE ad_bid_type_;$/;"	m	class:AdInfo	access:private
+ad_bson_	global_ad_db_interface.h	/^		XBSON* ad_bson_; \/\/ bson$/;"	m	class:AdInfo	access:private
+ad_budget_	global_ad_db_interface.h	/^	float ad_budget_;$/;"	m	struct:__anon7	access:public
+ad_finance_	global_ad_db_interface.h	/^		AD_FINANCE ad_finance_;$/;"	m	class:AdInfo	access:private
+ad_id_	global_ad_db_interface.h	/^		uint64_t ad_id_;$/;"	m	class:AdInfo	access:private
+ad_price_	global_ad_db_interface.h	/^	float ad_price_;$/;"	m	struct:__anon7	access:public
+ad_price_ceiling_	global_ad_db_interface.h	/^	float ad_price_ceiling_; $/;"	m	struct:__anon7	access:public
+ad_status_	global_ad_db_interface.h	/^		AD_STATUS ad_status_;$/;"	m	class:AdInfo	access:private
+ad_time_	global_ad_db_interface.h	/^		AD_TIME ad_time_;$/;"	m	class:AdInfo	access:private
+ad_type_	global_ad_db_interface.h	/^		AD_TYPE ad_type_;$/;"	m	class:AdInfo	access:private
+age	global_fd_db_interface.h	/^	uint16_t age;			\/\/ 年龄8位应该就够了？$/;"	m	struct:UserFeature	access:public
+api_fp_	global_fp_db_interface.h	/^		ApiFeaturePool api_fp_;$/;"	m	class:GlobalFpDbInterface	access:private
+attr_name_	global_ad_db_interface.h	/^		char attr_name_[WORD_LEN];$/;"	m	class:GlobalAdDbInterface	access:private
+binary_client_fd_isset	woo_db_interface.h	/^		int binary_client_fd_isset(woo::binary_client_t *client, fd_set *rfds) {$/;"	f	class:WooDbInterface	access:private	signature:(woo::binary_client_t *client, fd_set *rfds)
+binary_client_fd_set	woo_db_interface.h	/^		int binary_client_fd_set(woo::binary_client_t *client, fd_set *rfds, int *nfds) {$/;"	f	class:WooDbInterface	access:private	signature:(woo::binary_client_t *client, fd_set *rfds, int *nfds)
+bson_	global_ad_db_interface.h	/^		xbson bson_;$/;"	m	class:XBSON	access:private
+bson_data_	global_ad_db_interface.h	/^		char* bson_data_;$/;"	m	class:XBSON	access:private
+buf_	api_db_interface.h	/^			char* buf_;$/;"	m	struct:ApiDbInterface::_output_buf_t	access:public
+category1	global_fd_db_interface.h	/^	int32_t category1;$/;"	m	struct:UserFeature	access:public
+category2	global_fd_db_interface.h	/^	int32_t category2;$/;"	m	struct:UserFeature	access:public
+category3	global_fd_db_interface.h	/^	int32_t category3;$/;"	m	struct:UserFeature	access:public
+chengv	global_fw_db_interface.h	/^		RPM_Model chengv;$/;"	m	class:GlobalFeatureWeightDbInterface	access:private
+city	global_fd_db_interface.h	/^	uint16_t city;$/;"	m	struct:UserFeature	access:public
+compress_add	db_interface.h	/^		bool compress_add(){$/;"	f	class:DbInterface	access:protected	signature:()
+compress_flag_	db_interface.h	/^	uint8_t compress_flag_;$/;"	m	struct:_Db_Info_Struct	access:public
+corp_count	global_fd_db_interface.h	/^	int8_t corp_count:4;$/;"	m	struct:UserFeature	access:public
+corps	global_fd_db_interface.h	/^	int32_t corps[MAX_UNIT_LENGTH];$/;"	m	struct:UserFeature	access:public
+customer_id_	global_ad_db_interface.h	/^		uint64_t customer_id_;$/;"	m	class:AdInfo	access:private
+db_file_name_	global_db_interface.h	/^		char db_file_name_[WORD_LEN];$/;"	m	struct:GlobalDbInfoStruct	access:public
+db_id_	db_interface.h	/^	uint16_t db_id_;$/;"	m	struct:_Db_Info_Struct	access:public
+db_index_	db_interface.h	/^	uint16_t db_index_;$/;"	m	struct:_Db_Info_Struct	access:public
+db_info_struct_	db_interface.h	/^		Db_Info_Struct db_info_struct_; \/\/db info$/;"	m	class:DbInterface	access:protected
+db_name_	db_interface.h	/^	char db_name_[WORD_LEN];$/;"	m	struct:_Db_Info_Struct	access:public
+db_name_	global_db_interface.h	/^		char db_name_[WORD_LEN];$/;"	m	struct:GlobalDbInfoStruct	access:public
+db_type_	db_interface.h	/^	DB_TYPE db_type_;$/;"	m	struct:_Db_Info_Struct	access:public
+db_type_	global_db_interface.h	/^		GLOBAL_DB_TYPE db_type_;$/;"	m	struct:GlobalDbInfoStruct	access:public
+end_time_	global_ad_db_interface.h	/^	uint32_t end_time_;$/;"	m	struct:__anon6	access:public
+fanscount	global_fd_db_interface.h	/^	uint32_t fanscount;$/;"	m	struct:UserFeature	access:public
+followcount	global_fd_db_interface.h	/^	uint16_t followcount;$/;"	m	struct:UserFeature	access:public
+gender	global_fd_db_interface.h	/^	int8_t gender:1;			\/\/ 性别只需要1位$/;"	m	struct:UserFeature	access:public
+get	api_db_interface.h	/^		int get(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char){$/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+get	db_interface.h	/^		virtual int get(uint16_t type_id, uint64_t n_key, char* &p_result,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+get	hiredis_db_interface.h	/^		int get(uint16_t type_id, uint64_t n_key, char* &p_result, $/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+get	mc_db_interface.h	/^		int get(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char){$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+get	woo_db_interface.h	/^		int get(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char){$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, char* &p_result, char& split_char, char& second_split_char)
+getChengV	global_fw_db_interface.h	/^		RPM_Model getChengV()$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+getLanV	global_fw_db_interface.h	/^		RPM_Model getLanV()$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+getPuhu	global_fw_db_interface.h	/^		RPM_Model getPuhu()$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+get_ad_info	global_ad_db_interface.h	/^		AdInfo* get_ad_info(uint64_t ad_id){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t ad_id)
+get_ad_status	global_ad_db_interface.h	/^		int get_ad_status(uint64_t ad_id, AD_STATUS& ad_status){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t ad_id, AD_STATUS& ad_status)
+get_array_int	global_ad_db_interface.h	/^		static int get_array_int(json_object* req_json, std::vector<uint64_t>& vec_value,$/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object* req_json, std::vector<uint64_t>& vec_value, const char* name)
+get_attr	global_ad_db_interface.h	/^		int get_attr(char buf[], size_t buf_size, size_t& len){$/;"	f	class:AdInfo	access:public	signature:(char buf[], size_t buf_size, size_t& len)
+get_authorization	api_db_interface.h	/^		int get_authorization(const char* uid_str, const char* token_str, char base64_auth[], size_t& auth_len){$/;"	f	class:ApiDbInterface	access:protected	signature:(const char* uid_str, const char* token_str, char base64_auth[], size_t& auth_len)
+get_bid_type	global_ad_db_interface.h	/^		AD_BID_TYPE get_bid_type(){$/;"	f	class:AdInfo	access:public	signature:()
+get_customer_id	global_ad_db_interface.h	/^		uint64_t  get_customer_id(){$/;"	f	class:AdInfo	access:public	signature:()
+get_data_by_curl	api_db_interface.h	/^		int get_data_by_curl(const char* url, const char* request_key, $/;"	f	class:ApiDbInterface	access:protected	signature:(const char* url, const char* request_key, const char* auth_header, char*& p_result)
+get_data_from_req_result_map	db_company.h	/^int get_data_from_req_result_map(uint16_t db_id, const ReqResultMap& req_result_map, $/;"	f	signature:(uint16_t db_id, const ReqResultMap& req_result_map, char*& p_result, char& split_char, char& second_split_char)
+get_db_info	db_company.h	/^		int get_db_info(const char* file_name, std::vector<std::string>& vec_db_name){$/;"	f	class:DbCompany	access:private	signature:(const char* file_name, std::vector<std::string>& vec_db_name)
+get_db_info	global_db_company.h	/^		int get_db_info(const char* file_name, std::vector<std::string>& vec_db_name){$/;"	f	class:GlobalDbCompany	access:private	signature:(const char* file_name, std::vector<std::string>& vec_db_name)
+get_db_interface	db_company.h	/^		DbInterface* get_db_interface(const char* db_name){$/;"	f	class:DbCompany	access:public	signature:(const char* db_name)
+get_db_interface	db_company.h	/^		DbInterface* get_db_interface(uint16_t db_id){$/;"	f	class:DbCompany	access:public	signature:(uint16_t db_id)
+get_db_interface	db_interface_factory.h	/^		DbInterface* get_db_interface(const Db_Info_Struct& db_info_struct){$/;"	f	class:DbInterfaceFactory	access:public	signature:(const Db_Info_Struct& db_info_struct)
+get_finance	global_ad_db_interface.h	/^		AD_FINANCE get_finance(){$/;"	f	class:AdInfo	access:public	signature:()
+get_global_db_company	db_company.h	/^		GlobalDbCompany* get_global_db_company(){$/;"	f	class:DbCompany	access:public	signature:()
+get_global_db_interface	global_db_company.h	/^		GlobalDbInterface* get_global_db_interface(const char* db_name){$/;"	f	class:GlobalDbCompany	access:public	signature:(const char* db_name)
+get_global_db_interface	global_db_interface_factory.h	/^		GlobalDbInterface* get_global_db_interface(const GlobalDbInfoStruct& db_info_struct){$/;"	f	class:GlobalDbInterfaceFactory	access:public	signature:(const GlobalDbInfoStruct& db_info_struct)
+get_i	api_db_interface.h	/^		int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+get_i	api_db_interface.h	/^		int get_i(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+get_i	db_interface.h	/^		virtual int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+get_i	db_interface.h	/^		virtual int get_i(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+get_i	hiredis_db_interface.h	/^		int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+get_i	hiredis_db_interface.h	/^		int get_i(uint16_t type_id, uint64_t n_key, uint32_t item_key,$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+get_i	mc_db_interface.h	/^		int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+get_i	mc_db_interface.h	/^		int get_i(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+get_i	woo_db_interface.h	/^		int get_i(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, const char* &p_str_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char)
+get_i	woo_db_interface.h	/^		int get_i(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result,$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t n_item_key, char* &p_result, char& split_char, char& second_split_char, const char* other_key = NULL, bool other_flag = false)
+get_id	global_ad_db_interface.h	/^		uint64_t get_id(){$/;"	f	class:AdInfo	access:public	signature:()
+get_ip_num	woo_db_interface.h	/^		uint16_t get_ip_num(){$/;"	f	class:WooDbInterface	access:public	signature:()
+get_ip_port	db_interface.h	/^		int get_ip_port(uint64_t n_key,  SvrIpPort& svr_ip_port){$/;"	f	class:DbInterface	access:protected	signature:(uint64_t n_key, SvrIpPort& svr_ip_port)
+get_mc_raw	mc_db_interface.h	/^		memcached_st* get_mc_raw(SvrIpPort& svr_ip_port){$/;"	f	class:McDbInterface	access:protected	signature:(SvrIpPort& svr_ip_port)
+get_multi_db	db_company.h	/^		int get_multi_db(ReqResultMap& req_result_map){$/;"	f	class:DbCompany	access:public	signature:(ReqResultMap& req_result_map)
+get_multi_db_pthread	db_company.h	/^		static void* get_multi_db_pthread(void* thread_para){$/;"	f	class:DbCompany	access:private	signature:(void* thread_para)
+get_redis	hiredis_db_interface.h	/^		redisContext* get_redis(uint64_t n_key, SvrIpPort& svr_ip_port){$/;"	f	class:HiRedisDbInterface	access:private	signature:(uint64_t n_key, SvrIpPort& svr_ip_port)
+get_redis_raw	hiredis_db_interface.h	/^		redisContext* get_redis_raw(SvrIpPort& svr_ip_port){$/;"	f	class:HiRedisDbInterface	access:private	signature:(SvrIpPort& svr_ip_port)
+get_sep	global_fd_db_interface.h	/^		char *get_sep(char *start, char **next, char sep){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(char *start, char **next, char sep)
+get_status	global_ad_db_interface.h	/^		AD_STATUS get_status(){$/;"	f	class:AdInfo	access:public	signature:()
+get_str	global_ad_db_interface.h	/^		int get_str(char buf[], size_t buf_size, size_t& len){$/;"	f	class:XBSON	access:public	signature:(char buf[], size_t buf_size, size_t& len)
+get_str	global_ad_db_interface.h	/^		static int get_str(json_object* req_json, char* &value,$/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object* req_json, char* &value, const char* name)
+get_sub_str	global_ad_db_interface.h	/^		int get_sub_str(const char* name, char buf[], $/;"	f	class:XBSON	access:public	signature:(const char* name, char buf[], size_t buf_size, size_t& len)
+get_time	global_ad_db_interface.h	/^		AD_TIME get_time(){$/;"	f	class:AdInfo	access:public	signature:()
+get_type	global_ad_db_interface.h	/^		AD_TYPE get_type(){$/;"	f	class:AdInfo	access:public	signature:()
+get_type_	db_company.h	/^	bool get_type_; \/\/ true 表示通过n_key_获取，false 表示通过p_str_key_获取$/;"	m	struct:_RequestPara	access:public
+get_value	global_ad_db_interface.h	/^		bool get_value(uint64_t id, size_t& length, const char*& value){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t id, size_t& length, const char*& value)
+get_value	global_fp_db_interface.h	/^		bool get_value(uint64_t& return_value, uint64_t id, $/;"	f	class:GlobalFpDbInterface	access:public	signature:(uint64_t& return_value, uint64_t id, uint64_t item_id, const char* dbid)
+get_value	global_kv_db_interface.h	/^		bool get_value(uint64_t id, uint32_t& value){$/;"	f	class:GlobalKVDbInterface	access:public	signature:(uint64_t id, uint32_t& value)
+get_value	global_map_db_interface.h	/^		bool get_value(uint64_t id, size_t& length, const char*& value){$/;"	f	class:GlobalMapDbInterface	access:public	signature:(uint64_t id, size_t& length, const char*& value)
+get_value_float	global_ad_db_interface.h	/^		static int get_value_float(json_object *req_json, float& value, $/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *req_json, float& value, const char* name, float default_value)
+get_value_uint16	global_ad_db_interface.h	/^		static int get_value_uint16(json_object *req_json, uint16_t& value, $/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *req_json, uint16_t& value, const char* name, uint16_t default_value)
+get_value_uint32	global_ad_db_interface.h	/^		static int get_value_uint32(json_object *req_json, uint32_t& value, $/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *req_json, uint32_t& value, const char* name, uint32_t default_value)
+get_value_uint64	global_ad_db_interface.h	/^		static int get_value_uint64(json_object *req_json, uint64_t& value, $/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *req_json, uint64_t& value, const char* name, uint64_t default_value)
+get_woo_result	woo_db_interface.h	/^		int get_woo_result(const SvrIpPort& svr_ip_port, const char* req, char* &resp_buf){$/;"	f	class:WooDbInterface	access:protected	signature:(const SvrIpPort& svr_ip_port, const char* req, char* &resp_buf)
+get_woo_result	woo_db_interface.h	/^		int get_woo_result(uint64_t n_key, const char* req, char* &resp_buf){$/;"	f	class:WooDbInterface	access:protected	signature:(uint64_t n_key, const char* req, char* &resp_buf)
+getfeature	global_fd_db_interface.h	/^		UserFeature * getfeature(uint64_t uid){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(uint64_t uid)
+getinfo	global_fd_db_interface.h	/^		uint8_t getinfo(char *info,int32_t *info_value){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(char *info,int32_t *info_value)
+gets_ip_port	db_interface.h	/^		int gets_ip_port(uint64_t n_keys[], uint32_t num, MapSplitIpPort& map_ip_port){$/;"	f	class:DbInterface	access:protected	signature:(uint64_t n_keys[], uint32_t num, MapSplitIpPort& map_ip_port)
+gets_value	global_fp_db_interface.h	/^		bool gets_value(std::map<uint64_t, uint64_t>& map_return_value, uint64_t key,$/;"	f	class:GlobalFpDbInterface	access:public	signature:(std::map<uint64_t, uint64_t>& map_return_value, uint64_t key, const std::vector<uint64_t>& vec_item_key, const char* dbid)
+global_db_company_	db_company.h	/^		GlobalDbCompany* global_db_company_;	$/;"	m	class:DbCompany	access:private
+global_db_info_struct_	global_db_interface.h	/^		GlobalDbInfoStruct global_db_info_struct_;$/;"	m	class:GlobalDbInterface	access:public
+handle_	api_db_interface.h	/^		CURL* handle_;$/;"	m	class:ApiDbInterface	access:protected
+hash_map_ad_	global_ad_db_interface.h	/^		HASH_MAP_AD hash_map_ad_;$/;"	m	class:GlobalAdDbInterface	access:private
+hash_map_ad_index_	global_ad_db_interface.h	/^		HASH_MAP_INDEX hash_map_ad_index_;$/;"	m	class:GlobalAdDbInterface	access:private
+hashmap_global_data_	global_kv_db_interface.h	/^		 __gnu_cxx::hash_map<uint64_t, uint32_t> hashmap_global_data_;$/;"	m	class:GlobalKVDbInterface	access:private
+init	global_ad_db_interface.h	/^		int init(const char* data_str){$/;"	f	class:XBSON	access:public	signature:(const char* data_str)
+initialize	db_company.h	/^		int initialize(GlobalDbCompany* global_db_company) {$/;"	f	class:DbCompany	access:public	signature:(GlobalDbCompany* global_db_company)
+initialize	db_interface.h	/^		void initialize(){$/;"	f	class:DbInterface	access:public	signature:()
+insert_time_	global_ad_db_interface.h	/^	uint32_t insert_time_;$/;"	m	struct:__anon6	access:public
+ip_	hiredis_db_interface.h	/^	char ip_[IP_WORD_LEN];	$/;"	m	struct:_Redis_Struct	access:public
+ip_	mc_db_interface.h	/^	char ip_[IP_WORD_LEN];	$/;"	m	struct:_Mc_Struct	access:public
+ip_	woo_db_interface.h	/^	char ip_[IP_WORD_LEN];$/;"	m	struct:_Woo_Struct	access:public
+ip_index_	db_interface.h	/^	uint16_t ip_index_;$/;"	m	struct:_SvrIpPort	access:public
+ip_num_	db_interface.h	/^		uint16_t ip_num_;$/;"	m	class:DbInterface	access:protected
+ip_split_first_char_	db_interface.h	/^	char ip_split_first_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+ip_split_second_char_	db_interface.h	/^	char ip_split_second_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+ip_type_	db_interface.h	/^	uint8_t ip_type_; \/\/ 0 is for CNC; 1 is for CT$/;"	m	struct:_Db_Info_Struct	access:public
+is_exist	global_ad_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t id)
+is_exist	global_db_interface.h	/^		virtual bool is_exist(uint64_t id) = 0;$/;"	p	class:GlobalDbInterface	access:public	signature:(uint64_t id)
+is_exist	global_fd_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:(uint64_t id)
+is_exist	global_fp_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalFpDbInterface	access:public	signature:(uint64_t id)
+is_exist	global_fp_db_interface.h	/^		bool is_exist(uint64_t id, const char* dbid){$/;"	f	class:GlobalFpDbInterface	access:public	signature:(uint64_t id, const char* dbid)
+is_exist	global_fw_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:(uint64_t id)
+is_exist	global_kv_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalKVDbInterface	access:public	signature:(uint64_t id)
+is_exist	global_map_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalMapDbInterface	access:public	signature:(uint64_t id)
+is_exist	global_set_db_interface.h	/^		bool is_exist(uint64_t id){$/;"	f	class:GlobalSetDbInterface	access:public	signature:(uint64_t id)
+ismember	global_fd_db_interface.h	/^	int8_t ismember:1;		\/\/ 是否会员只需要1位$/;"	m	struct:UserFeature	access:public
+isred	global_fd_db_interface.h	/^	int8_t isred:1;			\/\/ 是否加红只需要1位$/;"	m	struct:UserFeature	access:public
+isvip	global_fd_db_interface.h	/^	int8_t isvip:1;			\/\/ 是否vip只需要1位$/;"	m	struct:UserFeature	access:public
+key_	api_db_interface.h	/^			char* key_;$/;"	m	struct:ApiDbInterface::_output_buf_t	access:public
+key_value_type_	db_interface.h	/^	uint8_t key_value_type_;$/;"	m	struct:_Db_Info_Struct	access:public
+kv_split_char_	global_db_interface.h	/^		char kv_split_char_;$/;"	m	struct:GlobalDbInfoStruct	access:public
+lanv	global_fw_db_interface.h	/^		RPM_Model lanv;$/;"	m	class:GlobalFeatureWeightDbInterface	access:private
+len_	api_db_interface.h	/^			size_t len_;$/;"	m	struct:ApiDbInterface::_output_buf_t	access:public
+loadModel	global_fw_db_interface.h	/^		void loadModel(const char *file)$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:(const char *file)
+load_config	db_company.h	/^		int load_config(const char* file_name){$/;"	f	class:DbCompany	access:public	signature:(const char* file_name)
+load_config	db_interface.h	/^		int load_config(const char* file_name, const char* db_name){$/;"	f	struct:_Db_Info_Struct	access:public	signature:(const char* file_name, const char* db_name)
+load_config	global_db_company.h	/^		int load_config(const char* file_name){$/;"	f	class:GlobalDbCompany	access:public	signature:(const char* file_name)
+load_config	global_db_interface.h	/^		int load_config(const char* file_name, const char* db_name){$/;"	f	struct:GlobalDbInfoStruct	access:public	signature:(const char* file_name, const char* db_name)
+load_db_config	global_ad_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalAdDbInterface	access:public	signature:()
+load_db_config	global_db_interface.h	/^		virtual int load_db_config() = 0;$/;"	p	class:GlobalDbInterface	access:public	signature:()
+load_db_config	global_fd_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:()
+load_db_config	global_fp_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalFpDbInterface	access:public	signature:()
+load_db_config	global_fw_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+load_db_config	global_kv_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalKVDbInterface	access:public	signature:()
+load_db_config	global_map_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalMapDbInterface	access:public	signature:()
+load_db_config	global_set_db_interface.h	/^		int load_db_config(){$/;"	f	class:GlobalSetDbInterface	access:public	signature:()
+map_db_	global_map_db_interface.h	/^		MapDb map_db_;$/;"	m	class:GlobalMapDbInterface	access:private
+map_db_interface_	db_company.h	/^		std::map<uint16_t, DbInterface*> map_db_interface_;$/;"	m	class:DbCompany	access:private
+map_db_str_interface_	db_company.h	/^		std::map<std::string, DbInterface*> map_db_str_interface_;$/;"	m	class:DbCompany	access:private
+map_global_db_interface_	global_db_company.h	/^		map<string, GlobalDbInterface*> map_global_db_interface_;			$/;"	m	class:GlobalDbCompany	access:private
+map_index_sign_	global_ad_db_interface.h	/^		std::map<std::string, uint8_t> map_index_sign_;$/;"	m	class:GlobalAdDbInterface	access:private
+md5_hex	api_db_interface.h	/^		void md5_hex(char *out, const char *d, size_t n) {$/;"	f	class:ApiDbInterface	access:protected	signature:(char *out, const char *d, size_t n)
+memc_	mc_db_interface.h	/^	memcached_st *memc_;$/;"	m	struct:_Mc_Struct	access:public
+mget	api_db_interface.h	/^		int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result,$/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget	db_interface.h	/^		virtual int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget	hiredis_db_interface.h	/^		int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result,$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget	mc_db_interface.h	/^		int mget(uint16_t type_id, const char* str_keys[], uint32_t keys_num, char* results_array[],$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, const char* str_keys[], uint32_t keys_num, char* results_array[], uint32_t& results_num, char& split_char, char& second_split_char)
+mget	mc_db_interface.h	/^		int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result,$/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget	woo_db_interface.h	/^		int mget(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result,$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget_i	api_db_interface.h	/^		int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget_i	db_interface.h	/^		virtual int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget_i	hiredis_db_interface.h	/^		int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget_i	mc_db_interface.h	/^		int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget_i	woo_db_interface.h	/^		int mget_i(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget_i_internal	hiredis_db_interface.h	/^		int mget_i_internal(SvrIpPort* &p_svr_ip_port,  ReqStruct* &p_req_struct,$/;"	f	class:HiRedisDbInterface	access:public	signature:(SvrIpPort* &p_svr_ip_port, ReqStruct* &p_req_struct, VecMResult*& p_vec_result, char un_compress[][COMPRESS_LEN], int spend_time[])
+mget_i_internal_pthread	hiredis_db_interface.h	/^		static void* mget_i_internal_pthread(void* thread_para){$/;"	f	class:HiRedisDbInterface	access:public	signature:(void* thread_para)
+mget_i_multi	hiredis_db_interface.h	/^		int mget_i_multi(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, $/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_keys[], uint32_t key_num, uint32_t n_item_keys[], uint32_t item_key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+mget_multi_db	db_company.h	/^		int mget_multi_db(){$/;"	f	class:DbCompany	access:public	signature:()
+mget_thread_num_	db_interface.h	/^	uint8_t mget_thread_num_;$/;"	m	struct:_Db_Info_Struct	access:public
+mget_type_	db_interface.h	/^	uint8_t mget_type_;$/;"	m	struct:_Db_Info_Struct	access:public
+mget_value	global_ad_db_interface.h	/^		bool mget_value(uint64_t ids[], int ids_len, const char* value[], int& value_len){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t ids[], int ids_len, const char* value[], int& value_len)
+mget_value	global_map_db_interface.h	/^		bool mget_value(uint64_t ids[], int ids_len, const char* value[], int& value_len){$/;"	f	class:GlobalMapDbInterface	access:public	signature:(uint64_t ids[], int ids_len, const char* value[], int& value_len)
+mgets_i_value	global_fp_db_interface.h	/^		bool mgets_i_value(KeyCodeItemMap& map_return_value,$/;"	f	class:GlobalFpDbInterface	access:public	signature:(KeyCodeItemMap& map_return_value, const KeyItemVec& key_item_vec, const char* dbid)
+mgets_value	global_fp_db_interface.h	/^		bool mgets_value(KeyCodeItemMap& map_return_value, const std::vector<uint64_t>& vec_key,$/;"	f	class:GlobalFpDbInterface	access:public	signature:(KeyCodeItemMap& map_return_value, const std::vector<uint64_t>& vec_key, const std::vector<uint64_t>& vec_item_key, const char* dbid)
+mm	global_fw_db_interface.h	/^        map<int,vector<double> > mm;$/;"	m	class:RPM_Model	access:public
+n_item_key_	db_company.h	/^	uint32_t n_item_key_; \/\/ 请求子key，一般不使用$/;"	m	struct:_RequestPara	access:public
+n_key_	db_company.h	/^	uint64_t n_key_; \/\/ 请求key$/;"	m	struct:_RequestPara	access:public
+n_log_id_	db_company.h	/^	int64_t n_log_id_;$/;"	m	struct:_RequestPara	access:public
+n_requsts_	db_interface.h	/^	uint64_t n_requsts_[PATH_MAX];$/;"	m	struct:_ReqStruct	access:public
+n_spend_time_	hiredis_db_interface.h	/^	int n_spend_time_[4];$/;"	m	struct:_RedisThreadPara	access:public
+needDisFea	global_fw_db_interface.h	/^        vector<int> needDisFea;$/;"	m	class:RPM_Model	access:public
+num_	db_interface.h	/^	uint32_t num_;$/;"	m	struct:_ReqStruct	access:public
+operator ()	db_interface.h	/^	size_t operator()(const SvrIpPort& svr_ip_port)const{$/;"	f	struct:Hash_Key	access:public	signature:(const SvrIpPort& svr_ip_port) const
+operator ()	db_interface.h	/^    bool operator()(const SvrIpPort& svr_ip_port_a, const SvrIpPort& svr_ip_port_b)const{$/;"	f	struct:Equal_Key	access:public	signature:(const SvrIpPort& svr_ip_port_a, const SvrIpPort& svr_ip_port_b) const
+output_buf_	api_db_interface.h	/^		output_buf_t* output_buf_;$/;"	m	class:ApiDbInterface	access:public
+output_buf_t	api_db_interface.h	/^		}output_buf_t;$/;"	t	class:ApiDbInterface	typeref:struct:ApiDbInterface::_output_buf_t	access:public
+p_db_interface_	db_company.h	/^	DbInterface* p_db_interface_; \/\/ 当前数据库实体$/;"	m	struct:_RequestPara	access:public
+p_redis_db_interface_	hiredis_db_interface.h	/^	HiRedisDbInterface* p_redis_db_interface_;$/;"	m	struct:_RedisThreadPara	access:public
+p_req_struct_	hiredis_db_interface.h	/^	ReqStruct* p_req_struct_;$/;"	m	struct:_RedisThreadPara	access:public
+p_result_	db_company.h	/^	char* p_result_; \/\/ 结果返回$/;"	m	struct:_RequestPara	access:public
+p_str_key_	db_company.h	/^	char* p_str_key_; \/\/ 请求字符型 key$/;"	m	struct:_RequestPara	access:public
+p_svr_ip_port_	hiredis_db_interface.h	/^	SvrIpPort* p_svr_ip_port_;	$/;"	m	struct:_RedisThreadPara	access:public
+p_uncompress_	hiredis_db_interface.h	/^	char (*p_uncompress_) [COMPRESS_LEN];$/;"	m	struct:_RedisThreadPara	access:public
+p_vec_result_	hiredis_db_interface.h	/^    VecMResult* p_vec_result_;$/;"	m	struct:_RedisThreadPara	access:public
+para	global_fw_db_interface.h	/^        vector<double> para;$/;"	m	class:RPM_Model	access:public
+passwd_flag_	db_interface.h	/^	bool passwd_flag_;$/;"	m	struct:_Db_Info_Struct	access:public
+port_	hiredis_db_interface.h	/^	uint32_t port_;$/;"	m	struct:_Redis_Struct	access:public
+port_	mc_db_interface.h	/^	uint32_t port_;$/;"	m	struct:_Mc_Struct	access:public
+port_	woo_db_interface.h	/^	uint32_t port_;$/;"	m	struct:_Woo_Struct	access:public
+port_index_	db_interface.h	/^	uint16_t port_index_;$/;"	m	struct:_SvrIpPort	access:public
+port_num_	db_interface.h	/^		uint16_t port_num_;$/;"	m	class:DbInterface	access:protected
+port_split_char_	db_interface.h	/^    char port_split_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+print	db_interface.h	/^	void print(){$/;"	f	struct:_SvrIpPort	access:public	signature:()
+print_map_mresult	db_interface.h	/^void print_map_mresult(const MapMResult& map_m_result){$/;"	f	signature:(const MapMResult& map_m_result)
+province	global_fd_db_interface.h	/^	uint16_t province;$/;"	m	struct:UserFeature	access:public
+puhu	global_fw_db_interface.h	/^		RPM_Model puhu;$/;"	m	class:GlobalFeatureWeightDbInterface	access:private
+push_request_result_map	db_company.h	/^int push_request_result_map(uint16_t db_id, uint64_t n_key, uint32_t n_item_key,$/;"	f	signature:(uint16_t db_id, uint64_t n_key, uint32_t n_item_key, uint16_t type_id, char* p_str_key, bool get_type, ReqResultMap& req_result_map)
+redis_	hiredis_db_interface.h	/^	redisContext *redis_;$/;"	m	struct:_Redis_Struct	access:public
+regday	global_fd_db_interface.h	/^	uint16_t regday;$/;"	m	struct:UserFeature	access:public
+release	db_company.h	/^		void release(){$/;"	f	class:DbCompany	access:private	signature:()
+release_map_key_type	db_interface.h	/^void release_map_key_type(MapKeyType& map_key_type){$/;"	f	signature:(MapKeyType& map_key_type)
+release_map_m_result	db_interface.h	/^void release_map_m_result(MapMResult& map_m_result) {$/;"	f	signature:(MapMResult& map_m_result)
+release_request_result_map	db_company.h	/^int release_request_result_map(ReqResultMap& req_result_map){$/;"	f	signature:(ReqResultMap& req_result_map)
+rw_locker_	global_ad_db_interface.h	/^		PthreadRWLocker rw_locker_;$/;"	m	class:GlobalAdDbInterface	access:private
+s_get	api_db_interface.h	/^		int s_get(uint16_t type_id, const char* p_str_key, char* &p_result, $/;"	f	class:ApiDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key)
+s_get	db_interface.h	/^		virtual int s_get(uint16_t type_id, const char* p_str_key, char* &p_result,$/;"	p	class:DbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key = 0)
+s_get	hiredis_db_interface.h	/^		int s_get(uint16_t type_id, const char* p_str_key, char* &p_result, $/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key)
+s_get	mc_db_interface.h	/^		int s_get(uint16_t type_id, const char* p_str_key, char* &p_result, $/;"	f	class:McDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key)
+s_get	woo_db_interface.h	/^		int s_get(uint16_t type_id, const char* p_str_key, char* &p_result, $/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, char* &p_result, char& split_char, char& second_split_char, uint64_t n_key = 0)
+s_set	hiredis_db_interface.h	/^		int s_set(uint16_t type_id, const char* p_str_key, const char* p_value, uint64_t n_key){$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, const char* p_str_key, const char* p_value, uint64_t n_key)
+school_count	global_fd_db_interface.h	/^	int8_t school_count:4;	\/\/ 学校和公司的数量不会都超过4个，每个需要三位$/;"	m	struct:UserFeature	access:public
+schools	global_fd_db_interface.h	/^	int32_t schools[MAX_UNIT_LENGTH];$/;"	m	struct:UserFeature	access:public
+second_split_char_	db_company.h	/^	char second_split_char_; \/\/ 返回二级分割字符$/;"	m	struct:_RequestPara	access:public
+select_type_	db_interface.h	/^	uint8_t select_type_; $/;"	m	struct:_Db_Info_Struct	access:public
+set	global_ad_db_interface.h	/^		int set(uint64_t ad_id,$/;"	f	class:AdInfo	access:public	signature:(uint64_t ad_id, uint64_t customer_id, AD_TYPE ad_type, AD_BID_TYPE ad_bid_type, AD_STATUS ad_status, AD_FINANCE ad_finance, AD_TIME ad_time, const char* ad_bson_str)
+set_ad_info	global_ad_db_interface.h	/^		int set_ad_info(json_object *ad_info_json){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(json_object *ad_info_json)
+set_ad_status	global_ad_db_interface.h	/^		int set_ad_status(uint64_t ad_id, AD_STATUS ad_status){$/;"	f	class:GlobalAdDbInterface	access:public	signature:(uint64_t ad_id, AD_STATUS ad_status)
+set_global_data_	global_fd_db_interface.h	/^		 __gnu_cxx::hash_map<uint64_t,UserFeature *> set_global_data_;$/;"	m	class:GlobalFeatureDataDbInterface	access:private
+set_global_data_	global_set_db_interface.h	/^		 __gnu_cxx::hash_set<uint64_t> set_global_data_;$/;"	m	class:GlobalSetDbInterface	access:private
+set_i	hiredis_db_interface.h	/^		int set_i(uint16_t type_id, uint64_t n_key, uint32_t item_key,$/;"	f	class:HiRedisDbInterface	access:public	signature:(uint16_t type_id, uint64_t n_key, uint32_t item_key, const char* value, const char* other_key = NULL, bool other_flag = false)
+set_status	global_ad_db_interface.h	/^		int set_status(AD_STATUS ad_status){$/;"	f	class:AdInfo	access:public	signature:(AD_STATUS ad_status)
+size	global_fp_db_interface.h	/^		int size(const char* dbid){$/;"	f	class:GlobalFpDbInterface	access:public	signature:(const char* dbid)
+size_	api_db_interface.h	/^			size_t size_;$/;"	m	struct:ApiDbInterface::_output_buf_t	access:public
+smget_i	woo_db_interface.h	/^		int smget_i(uint16_t type_id, char* p_keys[], uint32_t key_num,$/;"	f	class:WooDbInterface	access:public	signature:(uint16_t type_id, char* p_keys[], uint32_t key_num, MapMResult& map_result, char& split_char, char& second_split_char)
+split_char_	db_company.h	/^	char split_char_; \/\/ 返回分割字符$/;"	m	struct:_RequestPara	access:public
+start_time_	global_ad_db_interface.h	/^	uint32_t start_time_;$/;"	m	struct:__anon6	access:public
+step_	db_interface.h	/^	int step_;$/;"	m	struct:_ReqStruct	access:public
+svr_ip_	db_interface.h	/^	char svr_ip_[PATH_MAX];$/;"	m	struct:_Db_Info_Struct	access:public
+svr_port_	db_interface.h	/^	char svr_port_[PORT_LEN];$/;"	m	struct:_Db_Info_Struct	access:public
+timeout_	db_interface.h	/^	uint16_t timeout_;$/;"	m	struct:_Db_Info_Struct	access:public
+token_flag_	db_interface.h	/^	bool token_flag_;$/;"	m	struct:_Db_Info_Struct	access:public
+type_id_	db_company.h	/^	uint16_t type_id_; \/\/ 类型，一般不使用$/;"	m	struct:_RequestPara	access:public
+uid	global_fd_db_interface.h	/^	uint64_t uid;	$/;"	m	struct:UserFeature	access:public
+un_compress_	db_interface.h	/^		char un_compress_[COMPRESS_NUM][COMPRESS_LEN];$/;"	m	class:DbInterface	access:protected
+un_compress_index_	db_interface.h	/^		int un_compress_index_;$/;"	m	class:DbInterface	access:protected
+update_current_time	global_ad_db_interface.h	/^		int update_current_time(){$/;"	f	class:AdInfo	access:private	signature:()
+update_global_db_interface	global_db_company.h	/^		int update_global_db_interface(GlobalDbInterface* &p_new_db_interface,$/;"	f	class:GlobalDbCompany	access:public	signature:(GlobalDbInterface* &p_new_db_interface, const char* db_name, const char* file_name)
+update_time_	global_ad_db_interface.h	/^	uint32_t update_time_;$/;"	m	struct:__anon6	access:public
+user_passwd_	db_interface.h	/^	char user_passwd_[MAX_BUFFER];$/;"	m	struct:_Db_Info_Struct	access:public
+value_split_first_char_	db_interface.h	/^	char value_split_first_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+value_split_second_char_	db_interface.h	/^	char value_split_second_char_;$/;"	m	struct:_Db_Info_Struct	access:public
+value_string_type_	db_interface.h	/^	uint8_t value_string_type_; $/;"	m	struct:_Db_Info_Struct	access:public
+vec_client_t_	woo_db_interface.h	/^		vector<woo::binary_client_t*> vec_client_t_;$/;"	m	class:WooDbInterface	access:protected
+vec_mc_server_	mc_db_interface.h	/^		vector<Mc_Struct> vec_mc_server_;$/;"	m	class:McDbInterface	access:protected
+vec_redis_server_	hiredis_db_interface.h	/^		vector<Redis_Struct> vec_redis_server_;	$/;"	m	class:HiRedisDbInterface	access:private
+vec_server_	woo_db_interface.h	/^		vector<Woo_Struct> vec_server_;$/;"	m	class:WooDbInterface	access:protected
+vec_str_ip_	db_interface.h	/^		vector<string> vec_str_ip_;$/;"	m	class:DbInterface	access:protected
+vec_str_port_	db_interface.h	/^		vector<string> vec_str_port_;$/;"	m	class:DbInterface	access:protected
+viplevel	global_fd_db_interface.h	/^	int8_t viplevel;$/;"	m	struct:UserFeature	access:public
+viptype	global_fd_db_interface.h	/^	int8_t viptype;$/;"	m	struct:UserFeature	access:public
+weibocount	global_fd_db_interface.h	/^	uint16_t weibocount;$/;"	m	struct:UserFeature	access:public
+write_memory_callback	api_db_interface.h	/^		static size_t write_memory_callback(void *contents, size_t size, size_t nmemb, void *userp)$/;"	f	class:ApiDbInterface	access:protected	signature:(void *contents, size_t size, size_t nmemb, void *userp)
+yesrpm1	global_fd_db_interface.h	/^    int16_t yesrpm1;$/;"	m	struct:UserFeature	access:public
+yesrpm2	global_fd_db_interface.h	/^	int16_t yesrpm2;$/;"	m	struct:UserFeature	access:public
+yesrpm3	global_fd_db_interface.h	/^	int16_t yesrpm3;$/;"	m	struct:UserFeature	access:public
+~AdInfo	global_ad_db_interface.h	/^		~AdInfo(){$/;"	f	class:AdInfo	access:public	signature:()
+~ApiDbInterface	api_db_interface.h	/^		virtual ~ApiDbInterface(){$/;"	f	class:ApiDbInterface	access:public	signature:()
+~DbCompany	db_company.h	/^		~DbCompany() {$/;"	f	class:DbCompany	access:public	signature:()
+~DbInterface	db_interface.h	/^		virtual ~DbInterface(){$/;"	f	class:DbInterface	access:public	signature:()
+~DbInterfaceFactory	db_interface_factory.h	/^		~DbInterfaceFactory(){}$/;"	f	class:DbInterfaceFactory	access:public	signature:()
+~GlobalAdDbInterface	global_ad_db_interface.h	/^		~GlobalAdDbInterface(){$/;"	f	class:GlobalAdDbInterface	access:public	signature:()
+~GlobalDbCompany	global_db_company.h	/^		~GlobalDbCompany(){$/;"	f	class:GlobalDbCompany	access:public	signature:()
+~GlobalDbInterface	global_db_interface.h	/^		virtual ~GlobalDbInterface(){$/;"	f	class:GlobalDbInterface	access:public	signature:()
+~GlobalDbInterfaceFactory	global_db_interface_factory.h	/^		~GlobalDbInterfaceFactory(){}$/;"	f	class:GlobalDbInterfaceFactory	access:public	signature:()
+~GlobalFeatureDataDbInterface	global_fd_db_interface.h	/^		~GlobalFeatureDataDbInterface(){$/;"	f	class:GlobalFeatureDataDbInterface	access:public	signature:()
+~GlobalFeatureWeightDbInterface	global_fw_db_interface.h	/^		~GlobalFeatureWeightDbInterface(){$/;"	f	class:GlobalFeatureWeightDbInterface	access:public	signature:()
+~GlobalFpDbInterface	global_fp_db_interface.h	/^		~GlobalFpDbInterface(){$/;"	f	class:GlobalFpDbInterface	access:public	signature:()
+~GlobalKVDbInterface	global_kv_db_interface.h	/^		~GlobalKVDbInterface(){$/;"	f	class:GlobalKVDbInterface	access:public	signature:()
+~GlobalMapDbInterface	global_map_db_interface.h	/^		~GlobalMapDbInterface(){$/;"	f	class:GlobalMapDbInterface	access:public	signature:()
+~GlobalSetDbInterface	global_set_db_interface.h	/^		~GlobalSetDbInterface(){$/;"	f	class:GlobalSetDbInterface	access:public	signature:()
+~HiRedisDbInterface	hiredis_db_interface.h	/^		~HiRedisDbInterface(){$/;"	f	class:HiRedisDbInterface	access:public	signature:()
+~McDbInterface	mc_db_interface.h	/^		virtual ~McDbInterface(){$/;"	f	class:McDbInterface	access:public	signature:()
+~WooDbInterface	woo_db_interface.h	/^		virtual ~WooDbInterface(){$/;"	f	class:WooDbInterface	access:public	signature:()
+~XBSON	global_ad_db_interface.h	/^		~XBSON(){$/;"	f	class:XBSON	access:public	signature:()

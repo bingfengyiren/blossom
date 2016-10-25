@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+get_exposureId	binserver_loadtest.py	/^def get_exposureId():$/;"	f	access:public
+loop_sendreq	binserver_loadtest.py	/^def loop_sendreq(host, port ,all_req, loop_times):$/;"	f	access:public
+reqbinserver	binserverclient.py	/^def reqbinserver(host, port, req_str, log_id = 0, timeout_usecs = 1500000) :$/;"	f	access:public
+reqbinserver_cluster	binserverclient.py	/^def reqbinserver_cluster(cluster, server_idx, req_str,$/;"	f	access:public
+sendreq	binserver_loadtest.py	/^def sendreq(host, port, req_str):$/;"	f	access:public

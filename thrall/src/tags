@@ -1,0 +1,133 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ConvertCore	encode_convert.cpp	/^bool ConvertCore($/;"	f	signature:( const string& inCodeType, const string& outCodeType, const string& input, string& output)
+LEFT_BRACE	ini_file.c	22;"	d	file:
+MAX_FILE_SIZE	ini_file.c	21;"	d	file:
+RIGHT_BRACE	ini_file.c	23;"	d	file:
+_GB2312_to_UTF8_	encode_convert.cpp	/^bool _GB2312_to_UTF8_(const string& in, string& out)$/;"	f	signature:(const string& in, string& out)
+_GBK_to_UTF8_	encode_convert.cpp	/^bool _GBK_to_UTF8_(const string& in, string& out)$/;"	f	signature:(const string& in, string& out)
+_UTF8_to_GB2312_	encode_convert.cpp	/^bool _UTF8_to_GB2312_(const string& in, string& out)$/;"	f	signature:(const string& in, string& out)
+_UTF8_to_GBK_	encode_convert.cpp	/^bool _UTF8_to_GBK_(const string& in, string& out)$/;"	f	signature:(const string& in, string& out)
+_conf_t	binaryserver.cpp	/^typedef struct _conf_t {$/;"	s	file:
+_conf_t	lab_common_main.cpp	/^typedef struct _conf_t {$/;"	s	file:
+_conf_t	lab_common_svr.cpp	/^typedef struct _conf_t {$/;"	s	file:
+_conf_t::control_port	lab_common_svr.cpp	/^	int control_port;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::ip	binaryserver.cpp	/^	char ip[32];$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::ip	lab_common_svr.cpp	/^	char ip[32];$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::keys_file_path	lab_common_main.cpp	/^	char keys_file_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::log_buf_size	lab_common_main.cpp	/^	size_t log_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::log_buf_size	lab_common_svr.cpp	/^	size_t log_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::log_flush_type	lab_common_svr.cpp	/^	char log_flush_type[10];$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::log_path	binaryserver.cpp	/^	char log_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::log_path	lab_common_main.cpp	/^	char log_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::log_path	lab_common_svr.cpp	/^	char log_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::log_type	lab_common_svr.cpp	/^	char log_type[10];$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::long_conn	binaryserver.cpp	/^	bool long_conn;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::long_conn	lab_common_svr.cpp	/^	bool long_conn;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::output_file_path	lab_common_main.cpp	/^	char output_file_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::port	binaryserver.cpp	/^	int port;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::query_port	lab_common_svr.cpp	/^	int query_port;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::recv_buf_size	binaryserver.cpp	/^	size_t recv_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::recv_buf_size	lab_common_svr.cpp	/^	size_t recv_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::recv_to	binaryserver.cpp	/^	int recv_to;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::recv_to	lab_common_svr.cpp	/^	int recv_to;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::send_buf_size	binaryserver.cpp	/^	size_t send_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::send_buf_size	lab_common_svr.cpp	/^	size_t send_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::send_to	binaryserver.cpp	/^	int send_to;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::send_to	lab_common_svr.cpp	/^	int send_to;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::thread_num	binaryserver.cpp	/^	int thread_num;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::thread_num	lab_common_main.cpp	/^	int thread_num;$/;"	m	struct:_conf_t	file:	access:public
+_conf_t::thread_num	lab_common_svr.cpp	/^	int thread_num;$/;"	m	struct:_conf_t	file:	access:public
+_isGBK_	encode_convert.cpp	/^bool _isGBK_(const char* str)$/;"	f	signature:(const char* str)
+_isUTF8_	encode_convert.cpp	/^bool _isUTF8_(const char* str) $/;"	f	signature:(const char* str)
+_thread_data_t	lab_common_main.cpp	/^typedef struct _thread_data_t {$/;"	s	file:
+_thread_data_t	lab_common_svr.cpp	/^typedef struct _thread_data_t {$/;"	s	file:
+_thread_data_t::db_company_	lab_common_main.cpp	/^	DbCompany* db_company_;$/;"	m	struct:_thread_data_t	file:	access:public
+_thread_data_t::db_company_	lab_common_svr.cpp	/^	DbCompany* db_company_;$/;"	m	struct:_thread_data_t	file:	access:public
+_thread_data_t::output_file_	lab_common_main.cpp	/^	const char* output_file_;$/;"	m	struct:_thread_data_t	file:	access:public
+_thread_data_t::vec_keys_	lab_common_main.cpp	/^	std::vector<uint64_t> vec_keys_;$/;"	m	struct:_thread_data_t	file:	access:public
+_thread_data_t::work_company_	lab_common_main.cpp	/^	WorkCompany* work_company_;$/;"	m	struct:_thread_data_t	file:	access:public
+_thread_data_t::work_company_	lab_common_svr.cpp	/^	WorkCompany* work_company_;$/;"	m	struct:_thread_data_t	file:	access:public
+conf_t	binaryserver.cpp	/^} conf_t;$/;"	t	typeref:struct:_conf_t	file:
+conf_t	lab_common_main.cpp	/^} conf_t;$/;"	t	typeref:struct:_conf_t	file:
+conf_t	lab_common_svr.cpp	/^} conf_t;$/;"	t	typeref:struct:_conf_t	file:
+control_port	lab_common_svr.cpp	/^	int control_port;$/;"	m	struct:_conf_t	file:	access:public
+control_req_handle	lab_common_svr.cpp	/^int control_req_handle(void *handle_data, char *input, uint32_t input_len, char *output, $/;"	f	signature:(void *handle_data, char *input, uint32_t input_len, char *output, uint32_t *output_len, char *msg, size_t msg_size)
+control_server	lab_common_svr.cpp	/^woo::tcp_server_t *control_server = NULL;$/;"	v
+create_handle_data	lab_common_main.cpp	/^create_handle_data(thread_data_t thread_data_t_array[], int num, const char* keys_file_path) {$/;"	f	signature:(thread_data_t thread_data_t_array[], int num, const char* keys_file_path)
+create_handle_data	lab_common_svr.cpp	/^create_handle_data(int num) {$/;"	f	signature:(int num)
+db_company_	lab_common_main.cpp	/^	DbCompany* db_company_;$/;"	m	struct:_thread_data_t	file:	access:public
+db_company_	lab_common_svr.cpp	/^	DbCompany* db_company_;$/;"	m	struct:_thread_data_t	file:	access:public
+destroy_handle_data	lab_common_main.cpp	/^destroy_handle_data(thread_data_t thread_data_t_array[], int num){$/;"	f	signature:(thread_data_t thread_data_t_array[], int num)
+destroy_thread_data	lab_common_svr.cpp	/^destroy_thread_data(void **query_handle_data, int num){$/;"	f	signature:(void **query_handle_data, int num)
+end_of_string	ini_file.c	/^static int end_of_string(char c)$/;"	f	file:	signature:(char c)
+g_conf	binaryserver.cpp	/^conf_t g_conf;$/;"	v
+g_conf	lab_common_main.cpp	/^conf_t g_conf;$/;"	v
+g_conf	lab_common_svr.cpp	/^conf_t g_conf;$/;"	v
+g_quit	lab_common_svr.cpp	/^bool g_quit = false;$/;"	v
+init_thread_data	lab_common_main.cpp	/^init_thread_data(thread_data_t *thr, int thread_index) {$/;"	f	signature:(thread_data_t *thr, int thread_index)
+init_thread_data	lab_common_svr.cpp	/^init_thread_data(thread_data_t *thr) {$/;"	f	signature:(thread_data_t *thr)
+ip	binaryserver.cpp	/^	char ip[32];$/;"	m	struct:_conf_t	file:	access:public
+ip	lab_common_svr.cpp	/^	char ip[32];$/;"	m	struct:_conf_t	file:	access:public
+isright_brace	ini_file.c	/^static int isright_brace(char c )$/;"	f	file:	signature:(char c )
+keys_file_path	lab_common_main.cpp	/^	char keys_file_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+left_barce	ini_file.c	/^static int left_barce(char c)$/;"	f	file:	signature:(char c)
+load_conf	lab_common_main.cpp	/^int load_conf(const char *path) {$/;"	f	signature:(const char *path)
+load_conf	lab_common_svr.cpp	/^int load_conf(const char *path) {$/;"	f	signature:(const char *path)
+load_ini_file	ini_file.c	/^static int load_ini_file(const char *file, char *buf,int *file_size)$/;"	f	file:	signature:(const char *file, char *buf,int *file_size)
+log_buf_size	lab_common_main.cpp	/^	size_t log_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+log_buf_size	lab_common_svr.cpp	/^	size_t log_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+log_flush_type	lab_common_svr.cpp	/^	char log_flush_type[10];$/;"	m	struct:_conf_t	file:	access:public
+log_path	binaryserver.cpp	/^	char log_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+log_path	lab_common_main.cpp	/^	char log_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+log_path	lab_common_svr.cpp	/^	char log_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+log_type	lab_common_svr.cpp	/^	char log_type[10];$/;"	m	struct:_conf_t	file:	access:public
+long_conn	binaryserver.cpp	/^	bool long_conn;$/;"	m	struct:_conf_t	file:	access:public
+long_conn	lab_common_svr.cpp	/^	bool long_conn;$/;"	m	struct:_conf_t	file:	access:public
+main	binaryserver.cpp	/^int main(int argc, char ** argv) {$/;"	f	signature:(int argc, char ** argv)
+main	lab_common_main.cpp	/^int main(int argc, char ** argv) {$/;"	f	signature:(int argc, char ** argv)
+main	lab_common_svr.cpp	/^int main(int argc, char ** argv) {$/;"	f	signature:(int argc, char ** argv)
+newline	ini_file.c	/^static int newline(char c)$/;"	f	file:	signature:(char c)
+output_file_	lab_common_main.cpp	/^	const char* output_file_;$/;"	m	struct:_thread_data_t	file:	access:public
+output_file_path	lab_common_main.cpp	/^	char output_file_path[PATH_MAX];$/;"	m	struct:_conf_t	file:	access:public
+p_global_db_company	lab_common_main.cpp	/^GlobalDbCompany* p_global_db_company;$/;"	v
+p_global_db_company	lab_common_svr.cpp	/^GlobalDbCompany* p_global_db_company = NULL;$/;"	v
+parse_file	ini_file.c	/^static int parse_file(const char *section, const char *key, const char *buf,int *sec_s,int *sec_e,$/;"	f	file:	signature:(const char *section, const char *key, const char *buf,int *sec_s,int *sec_e, int *key_s,int *key_e, int *value_s, int *value_e)
+port	binaryserver.cpp	/^	int port;$/;"	m	struct:_conf_t	file:	access:public
+query_handle_data	lab_common_svr.cpp	/^void **query_handle_data = NULL;$/;"	v
+query_port	lab_common_svr.cpp	/^	int query_port;$/;"	m	struct:_conf_t	file:	access:public
+query_req_handle	lab_common_main.cpp	/^static void* query_req_handle(void *handle_data) {$/;"	f	file:	signature:(void *handle_data)
+query_req_handle	lab_common_svr.cpp	/^int query_req_handle(void *handle_data, char *input, uint32_t input_len, char *output, $/;"	f	signature:(void *handle_data, char *input, uint32_t input_len, char *output, uint32_t *output_len, char *msg, size_t msg_size)
+query_server	lab_common_svr.cpp	/^woo::tcp_server_t *query_server = NULL;$/;"	v
+read_profile_int	ini_file.c	/^int read_profile_int( const char *section, const char *key,int default_value, $/;"	f	signature:( const char *section, const char *key,int default_value, const char *file)
+read_profile_string	ini_file.c	/^int read_profile_string( const char *section, const char *key,char *value, $/;"	f	signature:( const char *section, const char *key,char *value, int size, const char *default_value, const char *file)
+recv_buf_size	binaryserver.cpp	/^	size_t recv_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+recv_buf_size	lab_common_svr.cpp	/^	size_t recv_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+recv_to	binaryserver.cpp	/^	int recv_to;$/;"	m	struct:_conf_t	file:	access:public
+recv_to	lab_common_svr.cpp	/^	int recv_to;$/;"	m	struct:_conf_t	file:	access:public
+req_handle	binaryserver.cpp	/^int req_handle(void *handle_data, char *input, uint32_t input_len, char *output, uint32_t *output_len, char *msg, size_t msg_size) {$/;"	f	signature:(void *handle_data, char *input, uint32_t input_len, char *output, uint32_t *output_len, char *msg, size_t msg_size)
+req_id	lab_common_svr.cpp	/^uint64_t req_id = 0;$/;"	v
+req_mutex	lab_common_svr.cpp	/^pthread_mutex_t req_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+send_buf_size	binaryserver.cpp	/^	size_t send_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+send_buf_size	lab_common_svr.cpp	/^	size_t send_buf_size;$/;"	m	struct:_conf_t	file:	access:public
+send_to	binaryserver.cpp	/^	int send_to;$/;"	m	struct:_conf_t	file:	access:public
+send_to	lab_common_svr.cpp	/^	int send_to;$/;"	m	struct:_conf_t	file:	access:public
+stop_server	lab_common_svr.cpp	/^void stop_server(int sig) {$/;"	f	signature:(int sig)
+thread_data_t	lab_common_main.cpp	/^} thread_data_t;$/;"	t	typeref:struct:_thread_data_t	file:
+thread_data_t	lab_common_svr.cpp	/^} thread_data_t;$/;"	t	typeref:struct:_thread_data_t	file:
+thread_num	binaryserver.cpp	/^	int thread_num;$/;"	m	struct:_conf_t	file:	access:public
+thread_num	lab_common_main.cpp	/^	int thread_num;$/;"	m	struct:_conf_t	file:	access:public
+thread_num	lab_common_svr.cpp	/^	int thread_num;$/;"	m	struct:_conf_t	file:	access:public
+update_db_handle_data	lab_common_svr.cpp	/^update_db_handle_data(void** &query_handle_data, int num, char *output,$/;"	f	signature:(void** &query_handle_data, int num, char *output, uint32_t& output_len)
+update_global_handle_data	lab_common_main.cpp	/^update_global_handle_data(thread_data_t thread_data_t_array[], int num, char *output,$/;"	f	signature:(thread_data_t thread_data_t_array[], int num, char *output, uint32_t& output_len)
+update_global_handle_data	lab_common_svr.cpp	/^update_global_handle_data(void** &query_handle_data, int num, char *output,$/;"	f	signature:(void** &query_handle_data, int num, char *output, uint32_t& output_len)
+update_global_single_handle_data	lab_common_svr.cpp	/^update_global_single_handle_data(void** &query_handle_data, const char* db_name, $/;"	f	signature:(void** &query_handle_data, const char* db_name, int num, char *output, uint32_t& output_len)
+update_work_handle_data	lab_common_svr.cpp	/^update_work_handle_data(void** &query_handle_data, int num, char *output,$/;"	f	signature:(void** &query_handle_data, int num, char *output, uint32_t& output_len)
+vec_keys_	lab_common_main.cpp	/^	std::vector<uint64_t> vec_keys_;$/;"	m	struct:_thread_data_t	file:	access:public
+work_company_	lab_common_main.cpp	/^	WorkCompany* work_company_;$/;"	m	struct:_thread_data_t	file:	access:public
+work_company_	lab_common_svr.cpp	/^	WorkCompany* work_company_;$/;"	m	struct:_thread_data_t	file:	access:public
+write_profile_string	ini_file.c	/^int write_profile_string(const char *section, const char *key,$/;"	f	signature:(const char *section, const char *key, const char *value, const char *file)

@@ -1,0 +1,18 @@
+ERROR [2015-12-10 15:51:52.171] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:51:52.171] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:51:52.171] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:51:52.171] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:52:19.180] [logid:0] [tcpserver.cpp:445] error bind failed 99
+ERROR [2015-12-10 15:52:19.180] [logid:0] [src/lab_common_svr.cpp:445] open query tcp server error
+ERROR [2015-12-10 15:52:19.268] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:52:19.268] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:52:19.268] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:52:19.269] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:52:47.676] [logid:0] [tcpserver.cpp:445] error bind failed 99
+ERROR [2015-12-10 15:52:47.676] [logid:0] [src/lab_common_svr.cpp:445] open query tcp server error
+ERROR [2015-12-10 15:52:47.767] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:52:47.767] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:52:47.767] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:52:47.767] [logid:0] [./include/db/global_db_company.h:117] new db interface is error!
+ERROR [2015-12-10 15:53:15.321] [logid:0] [tcpserver.cpp:445] error bind failed 99
+ERROR [2015-12-10 15:53:15.321] [logid:0] [src/lab_common_svr.cpp:445] open query tcp server error

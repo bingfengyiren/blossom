@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AccessStr	algorithm_interface.h	/^} AccessStr;$/;"	t	typeref:struct:__anon1
+AlgorithmInfo	algorithm_interface.h	/^} AlgorithmInfo;$/;"	t	typeref:struct:__anon2
+AlgorithmInterface	algorithm_interface.h	/^		AlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:AlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+AlgorithmInterface	algorithm_interface.h	/^class AlgorithmInterface{$/;"	c
+AlgorithmInterface::AlgorithmInterface	algorithm_interface.h	/^		AlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:AlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+AlgorithmInterface::algorithm_core	algorithm_interface.h	/^		virtual int algorithm_core(int64_t req_id, $/;"	p	class:AlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+AlgorithmInterface::get_interface_id	algorithm_interface.h	/^		int get_interface_id(){$/;"	f	class:AlgorithmInterface	access:public	signature:()
+AlgorithmInterface::interface_id_	algorithm_interface.h	/^		int interface_id_;$/;"	m	class:AlgorithmInterface	access:protected
+AlgorithmInterface::p_db_company_	algorithm_interface.h	/^		DbCompany*& p_db_company_;	$/;"	m	class:AlgorithmInterface	access:public
+AlgorithmInterface::~AlgorithmInterface	algorithm_interface.h	/^		virtual ~AlgorithmInterface(){$/;"	f	class:AlgorithmInterface	access:public	signature:()
+CreateFactory_T	algorithm_interface.h	/^typedef AlgorithmInterface * (*CreateFactory_T) (DbCompany*& p_db_company, int interface_id);$/;"	t
+DYN_ALGORITHMS	algorithm_interface.h	23;"	d
+MAP_ALG	algorithm_func.h	/^typedef std::map<int16_t, AlgorithmInfo*> MAP_ALG;$/;"	t
+PAIR_MAP_ALG	algorithm_func.h	/^typedef std::pair<std::string, MAP_ALG> PAIR_MAP_ALG;$/;"	t
+VEC_PAIR_MAP_ALG	algorithm_func.h	/^typedef std::vector<PAIR_MAP_ALG> VEC_PAIR_MAP_ALG;$/;"	t
+_ALGORITHM_FUNC_HEADER_	algorithm_func.h	2;"	d
+_ALGORITHM_INTERFACE_HEADER_	algorithm_interface.h	2;"	d
+__anon1::uid_	algorithm_interface.h	/^	uint64_t uid_;$/;"	m	struct:__anon1	access:public
+__anon2::algorithm_interface_	algorithm_interface.h	/^	AlgorithmInterface* algorithm_interface_;$/;"	m	struct:__anon2	access:public
+__anon2::global_db_name_	algorithm_interface.h	/^	char global_db_name_[PORT_LEN];\/\/这个主要为了兼容本地获取测试uid白名单用户$/;"	m	struct:__anon2	access:public
+__anon2::handle_	algorithm_interface.h	/^	void* handle_;$/;"	m	struct:__anon2	access:public
+__anon2::id_mod_	algorithm_interface.h	/^	int16_t id_mod_;$/;"	m	struct:__anon2	access:public
+algorithm_core	algorithm_interface.h	/^		virtual int algorithm_core(int64_t req_id, $/;"	p	class:AlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t)
+algorithm_interface_	algorithm_interface.h	/^	AlgorithmInterface* algorithm_interface_;$/;"	m	struct:__anon2	access:public
+create_so_handle	algorithm_func.h	/^int create_so_handle(MAP_ALG& map_alg, const char* so_folder, $/;"	f	signature:(MAP_ALG& map_alg, const char* so_folder, const MAP_VEC_STR& map_user_plan, DbCompany*& p_db_company, int interface_id)
+get_interface_id	algorithm_interface.h	/^		int get_interface_id(){$/;"	f	class:AlgorithmInterface	access:public	signature:()
+global_db_name_	algorithm_interface.h	/^	char global_db_name_[PORT_LEN];\/\/这个主要为了兼容本地获取测试uid白名单用户$/;"	m	struct:__anon2	access:public
+handle_	algorithm_interface.h	/^	void* handle_;$/;"	m	struct:__anon2	access:public
+id_mod_	algorithm_interface.h	/^	int16_t id_mod_;$/;"	m	struct:__anon2	access:public
+initialize_algorithm	algorithm_func.h	/^int initialize_algorithm(VEC_PAIR_MAP_ALG& vec_pair_map_alg, const char* p_alg_config, $/;"	f	signature:(VEC_PAIR_MAP_ALG& vec_pair_map_alg, const char* p_alg_config, DbCompany*& p_db_company, int interface_id)
+interface_id_	algorithm_interface.h	/^		int interface_id_;$/;"	m	class:AlgorithmInterface	access:protected
+p_db_company_	algorithm_interface.h	/^		DbCompany*& p_db_company_;	$/;"	m	class:AlgorithmInterface	access:public
+release_algorithm	algorithm_func.h	/^int release_algorithm(VEC_PAIR_MAP_ALG& vec_pair_map_alg){$/;"	f	signature:(VEC_PAIR_MAP_ALG& vec_pair_map_alg)
+run_algorithm	algorithm_func.h	/^int run_algorithm(int64_t req_id, $/;"	f	signature:(int64_t req_id, const AccessStr& access_str, candidate_user_t* p_cand_user_t, const VEC_PAIR_MAP_ALG& vec_pair_map_alg)
+uid_	algorithm_interface.h	/^	uint64_t uid_;$/;"	m	struct:__anon1	access:public
+~AlgorithmInterface	algorithm_interface.h	/^		virtual ~AlgorithmInterface(){$/;"	f	class:AlgorithmInterface	access:public	signature:()

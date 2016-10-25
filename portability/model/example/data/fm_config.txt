@@ -1,0 +1,9 @@
+Activation=sigmoid
+FM_K=10
+Regula=L2
+MiniBatch=0
+Iterations=100
+LearningRate=0.0001
+RateDecay=0.1
+Epsilon=0.01
+BatchNorm=false

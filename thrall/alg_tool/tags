@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ALL_BIN	Makefile	/^ALL_BIN=..\/lib\/InterAlgorithmInterface.so ..\/lib\/UserRpmAlgorithmInterface.so$/;"	m
+INC_PATH	Makefile	/^INC_PATH=-I..\/depend\/feature_pool_bin\/include\/ -I..\/depend\/uthash\/ -I..\/depend\/mapdb\/include\/ -I..\/depend\/woo\/include -I\/usr\/local\/include\/json -I\/usr\/local\/include\/hiredis\/ -I..\/include\/ -I..\/include\/db\/ -I..\/include\/utility -I..\/include\/work -I..\/include\/algorithm$/;"	m
+InterAlgorithmInterface	src/inter_algorithm_interface.cpp	/^DYN_ALGORITHMS(InterAlgorithmInterface);$/;"	v
+InterAlgorithmInterface	src/inter_algorithm_interface.h	/^		InterAlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:InterAlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+InterAlgorithmInterface	src/inter_algorithm_interface.h	/^class InterAlgorithmInterface : public AlgorithmInterface{$/;"	c	inherits:AlgorithmInterface
+InterAlgorithmInterface::InterAlgorithmInterface	src/inter_algorithm_interface.h	/^		InterAlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:InterAlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+InterAlgorithmInterface::algorithm_core	src/inter_algorithm_interface.cpp	/^int InterAlgorithmInterface::algorithm_core(int64_t req_id, $/;"	f	class:InterAlgorithmInterface	signature:(int64_t req_id, const AccessStr& access_str, VEC_CAND& vec_cand)
+InterAlgorithmInterface::algorithm_core	src/inter_algorithm_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	p	class:InterAlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, VEC_CAND& vec_cand)
+InterAlgorithmInterface::~InterAlgorithmInterface	src/inter_algorithm_interface.h	/^		~InterAlgorithmInterface(){$/;"	f	class:InterAlgorithmInterface	access:public	signature:()
+LIB_LINK	Makefile	/^LIB_LINK=-L..\/depend\/feature_pool_bin\/lib\/ -L..\/depend\/mapdb\/lib\/ -L..\/depend\/woo\/lib -L\/usr\/local\/lib -lmemcached -lapifp -lmapdb -lcurl -lssl -ljson -lwoo -lstdc++ -lz -lhiredis -lpthread$/;"	m
+UserRpmAlgorithmInterface	src/user_rpm_algorithm_interface.cpp	/^DYN_ALGORITHMS(UserRpmAlgorithmInterface);$/;"	v
+UserRpmAlgorithmInterface	src/user_rpm_algorithm_interface.h	/^		UserRpmAlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:UserRpmAlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+UserRpmAlgorithmInterface	src/user_rpm_algorithm_interface.h	/^class UserRpmAlgorithmInterface : public AlgorithmInterface{$/;"	c	inherits:AlgorithmInterface
+UserRpmAlgorithmInterface::UserRpmAlgorithmInterface	src/user_rpm_algorithm_interface.h	/^		UserRpmAlgorithmInterface(DbCompany*& p_db_company, int interface_id):$/;"	f	class:UserRpmAlgorithmInterface	access:public	signature:(DbCompany*& p_db_company, int interface_id)
+UserRpmAlgorithmInterface::algorithm_core	src/user_rpm_algorithm_interface.cpp	/^int UserRpmAlgorithmInterface::algorithm_core(int64_t req_id, $/;"	f	class:UserRpmAlgorithmInterface	signature:(int64_t req_id, const AccessStr& access_str, VEC_CAND& vec_cand)
+UserRpmAlgorithmInterface::algorithm_core	src/user_rpm_algorithm_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	p	class:UserRpmAlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, VEC_CAND& vec_cand)
+UserRpmAlgorithmInterface::~UserRpmAlgorithmInterface	src/user_rpm_algorithm_interface.h	/^		~UserRpmAlgorithmInterface(){$/;"	f	class:UserRpmAlgorithmInterface	access:public	signature:()
+_INTER_ALGORITHM_INTERFACE_HEADER_	src/inter_algorithm_interface.h	2;"	d
+_USER_RPM_ALGORITHM_USER_RPMFACE_HEADER_	src/user_rpm_algorithm_interface.h	2;"	d
+algorithm_core	src/inter_algorithm_interface.cpp	/^int InterAlgorithmInterface::algorithm_core(int64_t req_id, $/;"	f	class:InterAlgorithmInterface	signature:(int64_t req_id, const AccessStr& access_str, VEC_CAND& vec_cand)
+algorithm_core	src/inter_algorithm_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	p	class:InterAlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, VEC_CAND& vec_cand)
+algorithm_core	src/user_rpm_algorithm_interface.cpp	/^int UserRpmAlgorithmInterface::algorithm_core(int64_t req_id, $/;"	f	class:UserRpmAlgorithmInterface	signature:(int64_t req_id, const AccessStr& access_str, VEC_CAND& vec_cand)
+algorithm_core	src/user_rpm_algorithm_interface.h	/^		int algorithm_core(int64_t req_id, $/;"	p	class:UserRpmAlgorithmInterface	access:public	signature:(int64_t req_id, const AccessStr& access_str, VEC_CAND& vec_cand)
+~InterAlgorithmInterface	src/inter_algorithm_interface.h	/^		~InterAlgorithmInterface(){$/;"	f	class:InterAlgorithmInterface	access:public	signature:()
+~UserRpmAlgorithmInterface	src/user_rpm_algorithm_interface.h	/^		~UserRpmAlgorithmInterface(){$/;"	f	class:UserRpmAlgorithmInterface	access:public	signature:()
